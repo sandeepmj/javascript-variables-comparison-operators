@@ -25,7 +25,7 @@
 
 <p>Type: document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;");</p>
 
-<h3>Time for Sublime</h3>
+<h3>Sublime Time</h3>
 
 <p>When you hit reload on your browser, you lose all the work in the console. You have to keep retyping the JavaScript. Instead, let's start adding code to a Sublime file.</p>
 
@@ -40,7 +40,7 @@
 <p>Add the following script tags into the head: &lt;script type=&quot;text/javascript&quot;&gt;
 &lt;/script&gt;</p>
 
-<p>Type the following into the script tags: document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;");</p>
+<p>Type the following in between the opening and closing script tags: document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;");</p>
 
 <p>Open your index.html file in chrome. You should see a formatted html page.</p>
 
@@ -48,5 +48,5 @@
 
 <p>View Source the browser page and you'll see that you created an HTML page without any HTML in the body. It's all JavaScript:</p>
 
-<p><img scr="/img/html-normally-here.png"></p>
+<p><img src="/img/html-normally-here.png"></p>
 
