@@ -4,4 +4,4 @@
 
 <p>Visit <a href="http://www.this-page-intentionally-left-blank.org/">this blank page</a></p>
 
-<p>Click command-control J</p>
+<p>Click command-control J &#8984; &#8963; J</p>
