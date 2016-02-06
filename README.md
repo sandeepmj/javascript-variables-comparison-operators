@@ -9,8 +9,8 @@
 <p>Type: document.write("hello world!");</p>
 
 <img src="/img/console.png">
-<p>If you see "Hello World!" appear in your browser, congrats! Your use wrote your first bit of JavaScript.</p>
+<p>If you see "Hello World!" appear in your browser, congrats! Your just wrote your first bit of JavaScript.</p>
 
-<p>Why the semi-colon? Because semi-colons separate JavaScript statements. If unsure, just use it.</p>
+<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons separate JavaScript statements. If unsure, just use it.</p>
 
-<p>Tip: If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
+<p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
