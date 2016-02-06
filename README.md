@@ -23,4 +23,4 @@
 
 <p>But it just comes out as one paragraph. Let's add some HTML:</p>
 
-<p>Type: document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p>");</p>
+<p>Type: document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;");</p>
