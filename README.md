@@ -9,7 +9,7 @@
 <p>Type: document.write("hello world!");</p>
 
 <img src="/img/console.png">
-<p>Congrats! Your first bit of JavaScript.</p>
+<p>If you see "Hello World!" appear in your browser, congrats! Your use wrote your first bit of JavaScript.</p>
 
 <p>Why the semi-colon? Because semi-colons separate JavaScript statements. If unsure, just use it.</p>
 
