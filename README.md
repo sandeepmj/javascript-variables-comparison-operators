@@ -8,8 +8,9 @@
 
 <p>Type: document.write("hello world!");</p>
 
-<div style="max-width: 500px;" id="_giphy_26tOZ42Mg6pbTUPHW"></div><script> _gif_artist = "asugarhigh"; _gif_artist_avatar = "https://media1.giphy.com/avatars/asugarhigh/dJSgiI6WYmuy.gif"; var _giphy = _giphy || []; _giphy.push({id: "26tOZ42Mg6pbTUPHW",w: 800, h: 534});var g = document.createElement("script"); g.type = "text/javascript"; g.async = true;g.src = ("https:" == document.location.protocol ? "https://" : "http://") + "giphy.com/static/js/widgets/embed.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);</script>
-
+<img src="/img/console.png">
 <p>Congrats! Your first bit of JavaScript.</p>
 
 <p>Why the semi-colon? Because semi-colons separate JavaScript statements. If unsure, just use it.</p>
+
+<p>Tip: If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
