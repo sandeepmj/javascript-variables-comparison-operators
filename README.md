@@ -1,5 +1,13 @@
 # <h1>JavaScript Lesson 1: Introduction</h1>
 
+<h3>Why Use JavaScript?</h3>
+<ul>
+<li>Widespread language that is built into modern browsers, including mobile browsers.</li>
+<li>Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.</li>
+<li>Tap data, images, content from other sources to populate your site.</li>
+</ul>
+
+
 <h3>Hello JavaScript Console </h3>
 
 <p>Visit <a href="http://www.this-page-intentionally-left-blank.org/">this blank page.</a></p>
@@ -11,7 +19,7 @@
 <img src="/img/console.png">
 <p>If you see "Hello World!" appear in your browser, congrats! Your just wrote your first bit of JavaScript.</p>
 
-<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons separate JavaScript statements. If unsure, just use it.</p>
+<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.</p>
 
 <p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
 
@@ -53,7 +61,7 @@
 <p>Type the following in between the opening and closing script tags: </p>
 
 <p>
-<code>document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;");</code>
+<code>document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p><p>Here are some ways to save money:</p><li>Bring your lunch to work.</li><li>Stop taking cabs.</li><li>Stop shopping at Whole Foods.</li>");</code>
 	</p>
 
 <p>Open your index.html file in chrome. You should see a formatted html page.</p>
@@ -64,3 +72,13 @@
 
 <p><img src="/img/html-normally-here.png"></p>
 
+<h3>JavaScript Habits</h3>
+
+<ul>
+
+<li>White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.</li>
+
+<li>Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.</li>
+
+<li>Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)</li>
+</ul>
