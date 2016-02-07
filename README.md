@@ -34,16 +34,16 @@
 <code>document.write("Your Budget Anlysis. You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!");</code>
 </p>
 
-<p>But it just comes out as one paragraph. Let's add some HTML:</p>
+<p>It appears as one long paragraph. Let's add some HTML to provide more structure:</p>
 
 <p>Type: </p>
-
-	<p></p>
+<p>
 	<code>
-	document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p>");</code>
+	document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p>");
+	</code>
+</p>
+	
 
-
-	</p>
 
 <h3>Sublime Time</h3>
 
