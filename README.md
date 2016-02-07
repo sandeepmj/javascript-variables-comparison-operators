@@ -4,7 +4,7 @@
 <ul>
 <li>Widespread language that is built into modern browsers, including mobile browsers.</li>
 <li>Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.</li>
-<li>Tap data, images, content from other sources to populate your site.</li>
+<li>Tap data, images and other content from remote sources to populate your site.</li>
 </ul>
 
 
@@ -19,7 +19,7 @@
 <img src="/img/console.png">
 <p>If you see "Hello World!" appear in your browser, congrats! Your just wrote your first bit of JavaScript.</p>
 
-<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.</p>
+<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without it, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.</p>
 
 <p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
 
@@ -29,14 +29,18 @@
 
 	<code>document.write("You make $1000 per month but your expenses are $1100 per month.");</code></p>
 
-<p>You can copy and paste part of this, but type: document.write("Your Budget Anlysis. You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!");</p>
+<p>You can copy and paste part of this, but type: </p>
+<p>
+<code>document.write("Your Budget Anlysis. You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!");</code>
+</p>
 
 <p>But it just comes out as one paragraph. Let's add some HTML:</p>
 
 <p>Type: </p>
 
-	<p>
-	<code>document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;");</code>
+	<p></p>
+	<code>
+	document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p>");</code>
 
 
 	</p>
@@ -61,9 +65,10 @@
 <p>Type the following in between the opening and closing script tags: </p>
 
 <p>
-<code>document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p><p>Here are some ways to save money:</p><li>Bring your lunch to work.</li><li>Stop taking cabs.</li><li>Stop shopping at Whole Foods.</li>");</code>
+	<pre>
+<code>document.write(&quot;&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;);</code>
 	</p>
-
+</pre>
 <p>Open your index.html file in chrome. You should see a formatted html page.</p>
 
 <p><img src="/img/budget-js.png"></p>
