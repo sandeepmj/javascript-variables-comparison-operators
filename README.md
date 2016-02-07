@@ -209,6 +209,9 @@ It should look like this:
 <p><code>monthlyPaycheck - monthlyExpenses</code> and hit enter.</p>
 <p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
 <p><img src="/img/monthly.png"></p>
+<h3>Declaring a Variable</h3>
+<p>You've already declared a variable. You simply type <code><strong>var</strong> someName = someValue;</code></p>
+<p>You can also declare a variable but give it a value later. You simply type <code><strong>var</strong> someName;</code></p>
 
 
 
