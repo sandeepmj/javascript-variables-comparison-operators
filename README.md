@@ -199,16 +199,16 @@ It should look like this:
 <ul>
 	<li><strong>Clarity</strong> - you can assign meaningful names to variables. </li>
 	<li><strong>Reuseable</strong> - you can use the same variable in different places in your code.</li>
-	<li><strong>Time saver</strong> - you can change its value in one place that value is called on throughout your code</li>
+	<li><strong>Time saver</strong> - you can change its value in one place and the new value is called on throughout your code</li>
 	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action gives it a value.</li>
 </ul>
 <p>You might now remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
 <p>Type:</p>
-<p><code>var monthlyPaycheck = 1000;</code></p>
-<p><code>var monthlyExpenses = 1100;</code></p>
-<p><code>monthlyPaycheck - monthlyExpenses</code></p>
+<p><code>var monthlyPaycheck = 1000;</code> and hit enter.</p>
+<p><code>var monthlyExpenses = 1100;</code> and hit enter.</p>
+<p><code>monthlyPaycheck - monthlyExpenses</code> and hit enter.</p>
 <p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
-<p><img src="/img/mothly.png"></p>
+<p><img src="/img/monthly.png"></p>
 
 
 
