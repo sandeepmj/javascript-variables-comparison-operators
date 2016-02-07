@@ -135,9 +135,9 @@ Let's try it. At the bottom of the page (but before the closing Body tag), add f
 
 <p>
 	<code>
-		&lt;script type=&quot;text/javascript&quot;&gt;
-	document.getElementById(&quot;budget&quot;).style.color = &quot;red&quot;;
-	&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	document.getElementById(&quot;less&quot;).style.color = &quot;red&quot;;
+&lt;/script&gt;
 	</code>
 </p>
 
@@ -150,4 +150,20 @@ Your page should look like this:
 </p>
 <p>
 <img src = "/img/page-red.png">
+</p>
+
+<h3>
+Style Object
+</h3>
+<p>
+	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>.
+</p>
+<p>
+Add the following between the script tags:
+</p>
+<p>
+<code>
+document.getElementById("less").style.fontFamily = "Arial";
+document.getElementById("less").style.textTransform = "uppercase";
+</code>
 </p>
