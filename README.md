@@ -176,5 +176,5 @@ It should look like this:
 </p>
 
 <p>
-<img src="/img/stlyed.png">
+<img src="/img/styled.png">
 </p>
