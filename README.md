@@ -254,10 +254,12 @@ It should look like this:
 <h3>Declaring a Variable</h3>
 
 
-<p>For a number, you simply type <code><strong>var</strong> someNumber = someValue;</code></p>
-<p>For a string, you type <code><strong>var</strong> = "Some string of letters, words, etc.";</code></p>
+<p>For a number, you simply type <code><strong>var</strong> someValue = someNumber;</code></p>
+<p>For a string, you type <code><strong>var</strong> myInfo = "Some string of letters, words, etc.";</code></p>
 
-<p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> someInfo;</code> to declare a variable with no value.</p>
+<p><img src="/img/mag-glass.jpg">What's the difference between naming a variable that holds a number and a string?</p>
+
+<p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> myPlaceholder;</code> to declare a variable with no value.</p>
 <p>For example:</p>
 <p><img src="/img/monthly-declaration.png"></p>
 <p>You can also declare a variable and assign a value based on a computation at one time:</p>
