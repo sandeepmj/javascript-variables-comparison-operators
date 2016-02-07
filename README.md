@@ -187,10 +187,10 @@ It should look like this:
 <p>Variables are placeholders for values.They can be any of the following:</p>
 <ul>
 <li>
-	Numbers
+	Numbers.
 </li>
 <li>
-	Strings, that are made up of letter, words, sentences, etc 
+	Strings, that are made up of letter, words, sentences, etc. 
 </li>
 <li>
 	A placeholder that receives its value based on computation or concatenation of other variables.
@@ -198,11 +198,13 @@ It should look like this:
 <li>
 	A Boolean value, like true or false.
 </li>
-<p>
-	Let's try some out:
-</p>
+
 
 </ul>
+
+<p>
+	Let's try some out.
+</p>
 <p>Back in the console, type <code>var x = 1000;</code> and hit enter.</p>
 <p>In the next line, type x</p>
 <p>You should see "1000".</p>
@@ -236,6 +238,28 @@ It should look like this:
 <p> 
 	<img src="/img/monthly-after-declaration.png">
 </p>
+
+<h3>Naming Variables</h3>
+<p>The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules: </p>
+
+<ul>
+	<li>
+		They ARE case sensitive.
+	</li>
+	<li>
+		Cannot begin with numbers.
+	</li>
+	<li>
+		No spaces between words, instead use underscores, hypens or camelCase.
+	</li>
+	<li>
+		Cannot use any JavaScript <a href="http://www.w3schools.com/js/js_reserved.asp">reserved words</a>.
+	</li>
+
+
+
+</ul>
+
 
 
 
