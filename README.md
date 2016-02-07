@@ -90,6 +90,11 @@
 <li>Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)</li>
 </ul>
 
+<p>For example, reformated code with proper line breaks is now easier to read:</p>
+<p>
+<img src = "/img/easily-read.png"> 
+</p>
+
 <h3>Exercise (15 minutes)</h3>
 
 <p>In Sublime, create a list of classes you are taking.</p>
