@@ -90,7 +90,7 @@
 <li>Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)</li>
 </ul>
 
-<p>For example, reformated code with proper line breaks is now easier to read:</p>
+<p>For example, reformated code with proper line breaks is now easier to read compared to the earlier code:</p>
 <p>
 <img src = "/img/easily-read.png"> 
 </p>
@@ -104,3 +104,50 @@
 <li>The title: "My Spring Courses"</li>
 <li>An unordered list of your course titles.</li>
 
+
+<h3>Manipulating the Style</h3>
+<p>
+You don't necessarily want to build an entire webpage in JavaScript. Rather you want to be able to manipulate existing pages when there is user input, an event or an input.
+</p>
+<p>But we aren’t there yet.
+</p>
+<p>We need more foundational knowledge that will help us build up to controlling interactivity with button clicks or some user action and/or input. 
+</p> 
+<p>
+Create a page with the same budget info, but use HTML in the Body.
+</p>
+
+<p>
+Give the H1 tag the id of "budget".
+</p>
+<p><img src="/img/budget-id.png"></p>
+
+<h3>ID Power</h3>
+<p>
+Imagine a webpage full of IDs. We can use JavaScript to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
+</p>
+<p>
+In English, it says, "In this current document, get the thing with a particular ID and do something to it."
+</p>
+<p>
+Let's try it. At the bottom of the page (but before the closing Body tag), add following:
+</p>
+
+<p>
+	<code>
+		&lt;script type=&quot;text/javascript&quot;&gt;
+	document.getElementById(&quot;budget&quot;).style.color = &quot;red&quot;;
+	&lt;/script&gt;
+	</code>
+</p>
+
+<p>
+<img scr="/img/style-color.png">
+</p>
+
+<p>
+Your page should look like this:
+</p>
+<p>
+<img src = "/img/page-red.png">
+</p>
