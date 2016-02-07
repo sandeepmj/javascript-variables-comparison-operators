@@ -49,7 +49,7 @@
 
 <h3>Sublime Time</h3>
 
-<p>When you hit reload on your browser, you lose all the work in the console. You have to keep retyping the JavaScript. Instead, let's start adding code to a Sublime file.</p>
+<p>When you hit reload on your browser, you lose all the work in the console. You have to keep retyping the JavaScript. Instead, let's start adding code to a Sublime file where we can test, edit and retest.</p>
 
 <p>Use Command Line to create a directory call learning-js, and an index.html file inside the newly created folder.</p>
 
