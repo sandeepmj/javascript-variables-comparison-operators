@@ -25,7 +25,9 @@
 
 <p>But it just comes out as one paragraph. Let's add some HTML:</p>
 
-<p>Type: 
+<p>Type: </p>
+
+	<p>
 	<code>document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;");</code>
 
 
@@ -43,10 +45,16 @@
 
 <p><img src="/img/basic-html.png"></p>
 
-<p>Add the following script tags into the head: &lt;script type=&quot;text/javascript&quot;&gt;
-&lt;/script&gt;</p>
+<p>Add the following script tags into the head:</p>
+<p>
+<code>&lt;script type=&quot;text/javascript&quot;&gt;
+&lt;/script&gt;</code> </p>
 
-<p>Type the following in between the opening and closing script tags: document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;");</p>
+<p>Type the following in between the opening and closing script tags: </p>
+
+<p>
+<code>document.write("&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;");</code>
+	</p>
 
 <p>Open your index.html file in chrome. You should see a formatted html page.</p>
 
