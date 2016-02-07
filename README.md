@@ -130,6 +130,10 @@ Imagine a webpage full of IDs. We can use JavaScript to target a particular ID a
 In English, it says, "In this current document, get the thing with a particular ID and do something to it."
 </p>
 <p>
+You'll be using <code>document.getElementByID();</code> often.
+</p>
+
+<p>
 Let's try it. At the bottom of the page (but before the closing Body tag), add following:
 </p>
 
@@ -156,7 +160,7 @@ Your page should look like this:
 The Style Object
 </h3>
 <p>
-	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>.
+	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>. I use just a fraction of these, but feel free to experiment.
 </p>
 <p>
 Add the following between the script tags:
@@ -178,3 +182,34 @@ It should look like this:
 <p>
 <img src="/img/styled.png">
 </p>
+
+<h3>Variables</h3>
+<p>Variables are placeholders for values.</p>
+<p>Back in the console, type <code>var x = 1000;</code> and hit enter.</p>
+<p>In the next line, type x</p>
+<p>You should see "1000".</p>
+<p>Now type, <code>var y = 1100;</code> and hit enter.</p>
+<p>Now type y</p>
+<p>You should see "1100".</p>
+<p>Now for something that neither HTML or CSS can do: Math.</p>
+<p>Type <code>x - y </code>into the console.</p>
+<p>You should get -100.</p>
+<p><img src="/img/variables.png"></p>
+<h3>Why use Variables? </h3>
+<ul>
+	<li><strong>Clarity</strong> - you can assign meaningful names to variables. </li>
+	<li><strong>Reuseable</strong> - you can use the same variable in different places in your code.</li>
+	<li><strong>Time saver</strong> - you can change its value in one place that value is called on throughout your code</li>
+	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action gives it a value.</li>
+</ul>
+<p>You might now remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
+<p>Type:</p>
+<p><code>var monthlyPaycheck = 1000;</code></p>
+<p><code>var monthlyExpenses = 1100;</code></p>
+<p><code>monthlyPaycheck - monthlyExpenses</code></p>
+<p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
+<p><img src="/img/mothly.png"></p>
+
+
+
+
