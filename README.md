@@ -38,9 +38,11 @@
 
 <p>Type: </p>
 <p>
+	<pre>
 	<code>
-	document.write("<h2>Your Budget Analysis</h2><p>You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!</p>");
+	document.write(&quot;&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&quot;);
 	</code>
+	</pre>
 </p>
 	
 
@@ -77,7 +79,7 @@
 
 <p><img src="/img/html-normally-here.png"></p>
 
-<h3>JavaScript Habits</h3>
+<h3>JavaScript Good Habits</h3>
 
 <ul>
 
@@ -87,3 +89,13 @@
 
 <li>Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)</li>
 </ul>
+
+<h3>Exercise (15 minutes)</h3>
+
+<p>In Sublime, create a list of classes you are taking.</p>
+<ul>
+<li>Use JavaScript and HTML tags in the Head. </li>
+<li>There should be NO HTML in the Body.</li>
+<li>The title: "My Spring Courses"</li>
+<li>An unordered list of your course titles.</li>
+
