@@ -95,7 +95,7 @@
 <img src = "/img/easily-read.png"> 
 </p>
 
-<h3>Exercise (15 minutes)</h3>
+<h3>Exercise One (15 minutes)</h3>
 
 <p>In Sublime, create a list of classes you are taking.</p>
 <ul>
@@ -181,6 +181,23 @@ It should look like this:
 
 <p>
 <img src="/img/styled.png">
+</p>
+
+
+<h3>Exercise Two (15 minutes)</h3>
+<p>Rebuild your course list for the spring, but this time:</p>
+<p>
+	<li>
+		Place the HTMl in the body.
+	</li>
+	<li>
+		Add IDs for various content.
+	</li>
+	<li>
+		Style it JavaScript.
+	</li>
+
+
 </p>
 
 <h3>Variables</h3>
