@@ -210,8 +210,15 @@ It should look like this:
 <p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
 <p><img src="/img/monthly.png"></p>
 <h3>Declaring a Variable</h3>
-<p>You've already declared a variable. You simply type <code><strong>var</strong> someName = someValue;</code></p>
-<p>You can also declare a variable but give it a value later. You simply type <code><strong>var</strong> someName;</code></p>
+<p>Earlier, you declared a variable. You simply type <code><strong>var</strong> someName = someValue;</code></p>
+<p>You can also declare a variable but assign it a value later based on a computation. You simply type <code><strong>var</strong> someName;</code> to declare a variable with no value.</p>
+<p>For example:</p>
+<p><img src="/img/monthly-declaration.png"></p>
+<p>You can also declare a variable and assign a value based on a computation at one time:</p>
+<p> 
+	<img src="/img/monthly-after-declaration.png">
+</p>
+
 
 
 
