@@ -220,24 +220,8 @@ It should look like this:
 	<li><strong>Clarity</strong> - you can assign meaningful names to variables. </li>
 	<li><strong>Reuseable</strong> - you can use the same variable in different places in your code.</li>
 	<li><strong>Time saver</strong> - you can change its value in one place and the new value is called on throughout your code</li>
-	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action gives it a value.</li>
+	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action or input gives it a value.</li>
 </ul>
-<p>You might now remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
-<p>Type:</p>
-<p><code>var monthlyPaycheck = 1000;</code> and hit enter.</p>
-<p><code>var monthlyExpenses = 1100;</code> and hit enter.</p>
-<p><code>monthlyPaycheck - monthlyExpenses</code> and hit enter.</p>
-<p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
-<p><img src="/img/monthly.png"></p>
-<h3>Declaring a Variable</h3>
-<p>Earlier, you declared a variable. You simply type <code><strong>var</strong> someName = someValue;</code></p>
-<p>You can also declare a variable but assign it a value later based on a computation. You simply type <code><strong>var</strong> someName;</code> to declare a variable with no value.</p>
-<p>For example:</p>
-<p><img src="/img/monthly-declaration.png"></p>
-<p>You can also declare a variable and assign a value based on a computation at one time:</p>
-<p> 
-	<img src="/img/monthly-after-declaration.png">
-</p>
 
 <h3>Naming Variables</h3>
 <p>The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules: </p>
@@ -253,12 +237,35 @@ It should look like this:
 		No spaces between words, instead use underscores, hypens or camelCase.
 	</li>
 	<li>
-		Cannot use any JavaScript <a href="http://www.w3schools.com/js/js_reserved.asp">reserved words</a>.
+		Don't use any JavaScript <a href="http://www.w3schools.com/js/js_reserved.asp">reserved words</a>.
 	</li>
 
 
 
 </ul>
+<p>You might not remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
+<p>Type:</p>
+<p><code>var monthlyPaycheck = 1000;</code> and hit enter.</p>
+<p><code>var monthlyExpenses = 1100;</code> and hit enter.</p>
+<p><code>monthlyPaycheck - monthlyExpenses</code> and hit enter.</p>
+<p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
+<p><img src="/img/monthly.png"></p>
+
+<h3>Declaring a Variable</h3>
+
+
+<p>For a number, you simply type <code><strong>var</strong> someNumber = someValue;</code></p>
+<p>For a string, you type <code><strong>var</strong> = "Some string of letters, words, etc.";</code></p>
+
+<p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> someInfo;</code> to declare a variable with no value.</p>
+<p>For example:</p>
+<p><img src="/img/monthly-declaration.png"></p>
+<p>You can also declare a variable and assign a value based on a computation at one time:</p>
+<p> 
+	<img src="/img/monthly-after-declaration.png">
+</p>
+
+
 
 
 
