@@ -153,7 +153,7 @@ Your page should look like this:
 </p>
 
 <h3>
-Style Object
+The Style Object
 </h3>
 <p>
 	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>.
@@ -166,4 +166,15 @@ Add the following between the script tags:
 document.getElementById("less").style.fontFamily = "Arial";
 document.getElementById("less").style.textTransform = "uppercase";
 </code>
+</p>
+<p>
+	<img src ="/img/more-style.png">
+</p>
+
+<p>
+It should look like this:
+</p>
+
+<p>
+<img src="/img/stlyed.png">
 </p>
