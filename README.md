@@ -184,7 +184,25 @@ It should look like this:
 </p>
 
 <h3>Variables</h3>
-<p>Variables are placeholders for values.</p>
+<p>Variables are placeholders for values.They can be any of the following:</p>
+<ul>
+<li>
+	Numbers
+</li>
+<li>
+	Strings, that are made up of letter, words, sentences, etc 
+</li>
+<li>
+	A placeholder that receives its value based on computation or concatenation of other variables.
+</li>
+<li>
+	A Boolean value, like true or false.
+</li>
+<p>
+	Let's try some out:
+</p>
+
+</ul>
 <p>Back in the console, type <code>var x = 1000;</code> and hit enter.</p>
 <p>In the next line, type x</p>
 <p>You should see "1000".</p>
