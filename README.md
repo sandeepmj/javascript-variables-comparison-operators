@@ -344,7 +344,7 @@ Now create a varible that combines previous variables to create a complete sente
 </ul>
 <p>Add the two variables together. What do you get?</p>
 <p>Flip the order of adding them together. What do you get?</p>
-<p>What's happening?</p>
+<p><img src="/img/mag-glass.jpg">What's happening?</p>
 
 <h3>External JavaScript File</h3>
 
@@ -369,7 +369,7 @@ Now create a varible that combines previous variables to create a complete sente
 
 
 </ul>
-
+<br>
 <p>Let's use Command Line to create a JavaScript file.</p>
 <ol type="1">
 	<li>
@@ -414,12 +414,15 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <p>What happens?</p>
 
+<p>Going forward, ALWAYS place the link to your <code>.js</code> file right before the <code>&lt;/body&gt;</code> tag. This allows the page to be rendered first before the JavaScript is applied to it. And, the more JavaScript you have in the <code>head</code>, the slower the page might load.</p>
+
 <h3>Exercise 4 (15 minutes)</h3>
 
 <p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file.</p>
 
 <h3>Homework</h3>
 
+<p>TK</p>
 
 
 
