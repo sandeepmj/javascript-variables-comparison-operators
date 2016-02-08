@@ -371,7 +371,7 @@ Now create a varible that combines previous variables to create a complete sente
 </ul>
 
 <p>Let's use Command Line to create a JavaScript file.</p>
-<ol>
+<ol type="1">
 	<li>
 		Make a new directory call my-first-js using <code>mkdir</code>.
 	</li>
