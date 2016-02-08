@@ -392,14 +392,14 @@ Now create a varible that combines previous variables to create a complete sente
 	<img src="/img/external-js.png">
 </p>
 <p>
-Move the <code><script type="text/javascript" src="myjavascript.js"></script></code> out of the <code>head</code> and place right before the <code></body></code>.
+Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</script></code> out of the <code>head</code> and place right before the closing <code>body</code> tag.
 </p>
 
 <p>What happens?</p>
 
 <h3>Exercise 4 (15 minutes)</h3>
 
-<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in that file beyond the barebones required HTML.</p>
+<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file.</p>
 
 <h3>Homework</h3>
 
