@@ -351,7 +351,24 @@ Now create a varible that combines previous variables to create a complete sente
 <p>As your JavaScript code gets more involved and longer, it will clutter up your HTML file (and slow its response time).</p>
 <p>Or you have several HTML files that require the same JavaScript. You don't want to same JavaScript repeated across many files. It's a pain to fix one error (let alone many errors) across numberous files. </p>
 
-<p>It's good practice to place your JavaScript into an external file -- just like you've been placing your CSS into an external stylesheet. This way pages across a website need to call JavaScript from one external page.</p>
+<p>It's good practice to place your JavaScript into an external file -- just like you've been placing your CSS into an external stylesheet for several reasons. </p>
+
+<ul>
+	<li>
+		All HTML pages across a website can call the same JavaScript located in one external page.
+	</li>
+	<li>
+		Keeps your HTML free of code, making it reasier to read.
+	</li>
+	<li>
+		Keeps your JavaScript free of HTML, making it easier to read.
+	</li>
+	<li>
+		A browser will cache that JavaScript file, speeding up load time on each HTML page.
+	</li>
+
+
+</ul>
 
 <p>Let's use Command Line to create a JavaScript file.</p>
 <ol>
