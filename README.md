@@ -277,7 +277,7 @@ It should look like this:
 
 <p><img src="/img/mag-glass.jpg">What's the difference between naming a variable that holds a number and a string?</p>
 
-<p><img src="/img/mag-glass.jpg">Strings must be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. You can't mix and match.</p>
+<p>Strings must be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. You can't mix and match.</p>
 
 <p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> myPlaceholder;</code> to declare a variable with no value.</p>
 <p>For example:</p>
@@ -286,8 +286,21 @@ It should look like this:
 <p> 
 	<img src="/img/monthly-after-declaration.png">
 </p>
+<h3>Escaping Special Characters</h3>
+<p>
+Type the following into your console:
+</p>
+<p><code>var testString = ""He could not find his keys," the inspector said."</code></p>
+<p>
+	<img src="/img/string-quotes-error.png">
+</p>
+<p>You get an error. Why?</p>
 
+<p>You'll recall that strings in a variable have to be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. The problem occurs when a <code>"Double Quotes"</code> string itself contains a quotation. Or a <code>'Single Quotes'</code> string has a contraction that uses an apostrophe.  </p>
 
+<p>
+
+</p>
 
 
 
