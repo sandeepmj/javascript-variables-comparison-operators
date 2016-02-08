@@ -335,6 +335,7 @@ var testString = 'It\'s time to sleep.';
 <p>
 Now create a varible that combines previous variables to create a complete sentence. 
 </p>
+<p span="font-size: 5px;">HINT: strings can be added together.</p>
 <p>Create variables for the following:</p>
 <ul>
 <li>The numeral 5 as a number.
@@ -390,8 +391,18 @@ Now create a varible that combines previous variables to create a complete sente
 <p>
 	<img src="/img/external-js.png">
 </p>
+<p>
+Move the <code><script type="text/javascript" src="myjavascript.js"></script></code> out of the <code>head</code> and place right before the <code></body></code>.
+</p>
+
+<p>What happens?</p>
+
+<h3>Exercise 4 (15 minutes)</h3>
+
+<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in that file beyond the barebones required HTML.</p>
+
+<h3>Homework</h3>
 
 
 
-<p style="font-size: 5px;">HINT: strings can be added together.</p>
 
