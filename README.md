@@ -286,11 +286,18 @@ It should look like this:
 <p> 
 	<img src="/img/monthly-after-declaration.png">
 </p>
+
 <h3>Escaping Special Characters</h3>
 <p>
 Type the following into your console:
 </p>
-<p><code>var testString = ""He could not find his keys," the inspector said."</code></p>
+<p><code>var testString = ""He could not find his keys," the inspector said.";</code></p>
+
+<p>
+<code>
+var testString = 'It's time to sleep.';
+</code>
+</p>
 <p>
 	<img src="/img/string-quotes-error.png">
 </p>
@@ -305,12 +312,12 @@ We get around this situation by using the <code>\ escape character.</code>
 <p>Try it. Type the following into your console:</p>
 
 <p>
-<code>var testString = "\"He could not find his keys,\" the inspector said."</code>
+<code>var testString = "\"He could not find his keys,\"; the inspector said."</code>
 </p>
 
 <p>
 <code>
-var testString = 'It\'s time to sleep.'
+var testString = 'It\'s time to sleep.';
 </code>
 </p>
 <p>Now the strings work and you see either the quotation or the apostrophe.</p>
@@ -318,7 +325,14 @@ var testString = 'It\'s time to sleep.'
 <img src="/img/escaping.png">
 </p>
 
-
-
-
+<h3>Exercise Three (10 minutes)</h3>
+<p>Create variables for each of the following:</p>
+<ul>
+<li>"We've got</li>
+<li>five</li>
+<li>years...that's all we've got."</li>
+</ul>
+<p>
+Now create a varible that is comprised of each of the previous variables. Call this new variable and see if you have a complete sentence.
+</p>
 
