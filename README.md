@@ -299,9 +299,24 @@ Type the following into your console:
 <p>You'll recall that strings in a variable have to be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. The problem occurs when a <code>"Double Quotes"</code> string itself contains a quotation. Or a <code>'Single Quotes'</code> string has a contraction that uses an apostrophe.  </p>
 
 <p>
-
+We get around this situation by using the <code>\ escape character.</code>
 </p>
 
+<p>Try it. Type the following into your console:</p>
+
+<p>
+<code>var testString = "\"He could not find his keys,\" the inspector said."</code>
+</p>
+
+<p>
+<code>
+var testString = 'It\'s time to sleep.'
+</code>
+</p>
+<p>Now the strings work and you see either the quotation or the apostrophe.</p>
+<p>
+<img src="/img/escaping.png">
+</p>
 
 
 
