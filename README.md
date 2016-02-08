@@ -213,12 +213,12 @@ It should look like this:
 	A placeholder that receives its value based on computation or concatenation of other variables.
 </li>
 <li>
-	A Boolean value, like true or false.
+	A Boolean value, which can only be <code>true</code> or <code>false</code>.
 </li>
 
 
 </ul>
-
+<br>
 <p>
 	Let's try some out.
 </p>
@@ -239,7 +239,7 @@ It should look like this:
 	<li><strong>Time saver</strong> - you can change its value in one place and the new value is called on throughout your code</li>
 	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action or input gives it a value.</li>
 </ul>
-
+<br>
 <h3>Naming Variables</h3>
 <p>The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules: </p>
 
@@ -260,6 +260,7 @@ It should look like this:
 
 
 </ul>
+<br>
 <p>You might not remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
 <p>Type:</p>
 <p><code>var monthlyPaycheck = 1000;</code> and hit enter.</p>
@@ -271,10 +272,12 @@ It should look like this:
 <h3>Declaring a Variable</h3>
 
 
-<p>For a number, you simply type <code><strong>var</strong> someValue = someNumber;</code></p>
+<p>For a number, you simply type <code><strong>var</strong> myInfo = someNumber;</code></p>
 <p>For a string, you type <code><strong>var</strong> myInfo = "Some string of letters, words, etc.";</code></p>
 
 <p><img src="/img/mag-glass.jpg">What's the difference between naming a variable that holds a number and a string?</p>
+
+<p><img src="/img/mag-glass.jpg">Strings must be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. You can't mix and match.</p>
 
 <p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> myPlaceholder;</code> to declare a variable with no value.</p>
 <p>For example:</p>
