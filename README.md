@@ -392,7 +392,7 @@ Now create a varible that combines previous variables to create a complete sente
 	<img src="/img/external-js.png">
 </p>
 <p>
-Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</script></code> out of the <code>head</code> and place right before the closing <code>body</code> tag.
+Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</script></code> out of the <code>head</code> and place right before the  <code>&lt;/body&gt;</code> tag.
 </p>
 
 <p>What happens?</p>
