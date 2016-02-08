@@ -71,7 +71,7 @@
 <code>document.write(&quot;&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;);</code>
 	</p>
 </pre>
-<p>Open your index.html file in chrome. You should see a formatted html page.</p>
+<p>Open your index.html file in chrome. You should see a formatted HTML page.</p>
 
 <p><img src="/img/budget-js.png"></p>
 
@@ -328,13 +328,70 @@ var testString = 'It\'s time to sleep.';
 <h3>Exercise Three (10 minutes)</h3>
 <p>Create variables for each of the following:</p>
 <ul>
-<li>"We've got</li>
-<li>five</li>
-<li>years...that's all we've got."</li>
+<li>"It's been</li>
+<li>a hard days night</li>
+<li>and I've been working like a dog."</li>
 </ul>
 <p>
 Now create a varible that combines previous variables to create a complete sentence. 
 </p>
+<p>Create variables for the following:</p>
+<ul>
+<li>The numeral 5 as a number.
+</li>
+<li>The number 4 as a string</li>
+</ul>
+<p>Add the two variables together. What do you get?</p>
+<p>Flip the order of adding them together. What do you get?</p>
+<p>What's happening?</p>
 
-<p style = "font-size: 5px;">HINT: strings can be added together.</p>
+<h3>External JavaScript File</h3>
+
+<p>As your JavaScript code gets more involved and longer, it will clutter up your HTML file (and slow its response time).</p>
+<p>Or you have several HTML files that require the same JavaScript. You don't want to same JavaScript repeated across many files. It's a pain to fix one error (let alone many errors) across numberous files. </p>
+
+<p>It's good practice to place your JavaScript into an external file -- just like you've been placing your CSS into an external stylesheet. This way pages across a website need to call JavaScript from one external page.</p>
+
+<p>Let's use Command Line to create a JavaScript file.</p>
+<ol>
+	<li>
+		Make a new directory call my-first-js using <code>mkdir</code>.
+	</li>
+	<li>
+		Navigate into your directory (or folder) using <code>cd</code>.
+
+	</li>
+	<li>
+		Create three different files at one time using <code>touch index.html page2.html myjavascript.js mystylesheet.css</code>. 
+	</li>
+	<li>
+		Open all the files at one time using <code>subl .</code> and all should appear.
+	</li>
+	<li>
+		In the <code>index.html</code> file, add the basic HTML that all HTML files require.
+	</li>
+	<li>
+		In <code>index.html</code> add <code>&lt;p&gt;Content I typed into page 1.&lt;/p&gt;</code> with the opening and closing <code>body</code> tags.
+	</li>
+
+	<li>
+		In <code>page2.html</code> add <code>&lt;p&gt;Content I typed into page 2.&lt;/p&gt;</code> with the opening and closing <code>body</code> tags.
+	</li>
+	<li>In both the HTML files, add the following into the <code>head</code>: <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</code></li>
+	<li>
+		In the <code>myjavascript.js</code> file, type <code>document.write("Content created using JavaScript");</code>
+	</li>
+	<li>After saving all files, open them in your browser.</li>
+
+</ol>
+
+<p>What do you see?</p>
+<p>Here's what you should see:</p>
+<p>
+	<img src="/img/external-js.png">
+</p>
+
+
+
+<p style="font-size: 5px;">HINT: strings can be added together.</p>
 
