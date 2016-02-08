@@ -333,6 +333,8 @@ var testString = 'It\'s time to sleep.';
 <li>years...that's all we've got."</li>
 </ul>
 <p>
-Now create a varible that is comprised of each of the previous variables. Call this new variable and see if you have a complete sentence.
+Now create a varible that combines previous variables to create a complete sentence. 
 </p>
+
+<p style = "font-size: 5px;">HINT: strings can be added together.</p>
 
