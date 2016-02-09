@@ -21,7 +21,7 @@
 
 <p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without it, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.</p>
 
-<p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes</p>
+<p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes.</p>
 
 <h3>Adding HTML using JavaScript:</h3>
 
@@ -79,6 +79,78 @@
 
 <p><img src="/img/html-normally-here.png"></p>
 
+
+
+<h3>The DOM</h3>
+<p>We've typed <code>document.write()</code> a few times now. In English, we're simply telling JavaScript to write something on the document. We're not harnessing the power of JavaScript, we're simply writing into a default location on the document.</p>
+
+<p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. Using JavaScript we can access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
+<p>Doesn't quite make sense?</p>
+
+<p>The best thing is to try it out.</p>
+
+<h3>ID Power</h3>
+<p>
+Imagine a webpage full of IDs. We can use JavaScript to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
+</p>
+<p>
+In English, it says, "In this current document, get the thing with a particular ID and do something to it."
+</p>
+<p>
+You'll be using <code>document.getElementByID();</code> often.
+</p>
+
+<p>
+Let's try it. At the bottom of the page (but before the closing Body tag), add following:
+</p>
+
+<p>
+	<code>
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	document.getElementById(&quot;budget&quot;).style.color = &quot;red&quot;;
+&lt;/script&gt;
+	</code>
+</p>
+
+<p>
+<img scr="/img/style-color.png">
+</p>
+
+<p>
+Your page should look like this:
+</p>
+<p>
+<img src = "/img/page-red.png">
+</p>
+
+<h3>
+The Style Object
+</h3>
+<p>
+	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>. I use just a fraction of these, but feel free to experiment.
+</p>
+<p>
+Add the following between the script tags:
+</p>
+<p>
+<code>
+document.getElementById("budget").style.fontFamily = "Arial";
+document.getElementById("budget").style.textTransform = "uppercase";
+</code>
+</p>
+<p>
+	<img src ="/img/more-style.png">
+</p>
+
+<p>
+It should look like this:
+</p>
+
+<p>
+<img src="/img/styled.png">
+</p>
+
+
 <h3>JavaScript Good Habits</h3>
 
 <ul>
@@ -122,66 +194,7 @@ Give the H1 tag the id of "budget".
 </p>
 <p><img src="/img/budget-id.png"></p>
 
-<h3>ID Power</h3>
-<p>
-Imagine a webpage full of IDs. We can use JavaScript to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
-</p>
-<p>
-In English, it says, "In this current document, get the thing with a particular ID and do something to it."
-</p>
-<p>
-You'll be using <code>document.getElementByID();</code> often.
-</p>
 
-<p>
-Let's try it. At the bottom of the page (but before the closing Body tag), add following:
-</p>
-
-<p>
-	<code>
-	&lt;script type=&quot;text/javascript&quot;&gt;
-	document.getElementById(&quot;less&quot;).style.color = &quot;red&quot;;
-&lt;/script&gt;
-	</code>
-</p>
-
-<p>
-<img scr="/img/style-color.png">
-</p>
-
-<p>
-Your page should look like this:
-</p>
-<p>
-<img src = "/img/page-red.png">
-</p>
-
-<h3>
-The Style Object
-</h3>
-<p>
-	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>. I use just a fraction of these, but feel free to experiment.
-</p>
-<p>
-Add the following between the script tags:
-</p>
-<p>
-<code>
-document.getElementById("less").style.fontFamily = "Arial";
-document.getElementById("less").style.textTransform = "uppercase";
-</code>
-</p>
-<p>
-	<img src ="/img/more-style.png">
-</p>
-
-<p>
-It should look like this:
-</p>
-
-<p>
-<img src="/img/styled.png">
-</p>
 
 
 <h3>Exercise Two (15 minutes)</h3>
@@ -414,7 +427,7 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <p>What happens?</p>
 
-<p>Going forward, ALWAYS place the link to your <code>.js</code> file right before the <code>&lt;/body&gt;</code> tag. This allows the page to be rendered first before the JavaScript is applied to it. And, the more JavaScript you have in the <code>head</code>, the slower the page might load.</p>
+<p>Going forward, ALWAYS place the link to your <code>.js</code> file right before the <code>&lt;/body&gt;</code> tag. This allows the page to be rendered first before the JavaScript is applied to it. Another reason to do this is that the more JavaScript you have in the <code>head</code>, the slower the page will load.</p>
 
 <h3>Exercise 4 (15 minutes)</h3>
 
