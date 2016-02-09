@@ -140,6 +140,17 @@ Your page should look like this:
 <p>You can also access by tags (like h1, p, li, etc):</p>
 
 <p><code>document.getElementsbyTagName(tagHere);</code></p>
+
+
+<h3>Manipulating the Style</h3>
+<p>
+You don't necessarily want to build an entire webpage in JavaScript. Rather you want to be able to manipulate existing pages when there is user input, an event or an input.
+</p>
+<p>But we aren’t there yet.
+</p>
+<p>We need more foundational knowledge that will help us build up to controlling interactivity with button clicks or some user action and/or input. 
+</p> 
+
 <h3>
 The Style Object
 </h3>
@@ -166,6 +177,7 @@ It should look like this:
 <p>
 <img src="/img/styled.png">
 </p>
+
 
 
 <h3>Make JavaScript Easier to Read</h3>
@@ -196,17 +208,12 @@ It should look like this:
 <li>The title and each course should have separate IDs.</li>
 <li>Style each ID in a different color in an external stylesheet.</li>
 <li>View the page.</li>
-<li>Now change the color of each line using JavaScript to manipulate the DOM.</li>
+<li>Now change the color of each course using JavaScript to manipulate the DOM.</li>
+
+<p>What happens when you reload the page?</p>
 
 
-<h3>Manipulating the Style</h3>
-<p>
-You don't necessarily want to build an entire webpage in JavaScript. Rather you want to be able to manipulate existing pages when there is user input, an event or an input.
-</p>
-<p>But we aren’t there yet.
-</p>
-<p>We need more foundational knowledge that will help us build up to controlling interactivity with button clicks or some user action and/or input. 
-</p> 
+
 
 
 
