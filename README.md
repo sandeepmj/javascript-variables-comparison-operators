@@ -84,17 +84,27 @@
 <h3>The DOM</h3>
 <p>We've typed <code>document.write()</code> a few times now. In English, we're simply telling JavaScript to write something on the document. We're not harnessing the power of JavaScript, we're simply writing into a default location on the document.</p>
 
-<p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. Using JavaScript we can access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
+<p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
 <p>Doesn't quite make sense?</p>
 
 <p>The best thing is to try it out.</p>
 
+<p>
+Create a page with the same budget info, but use HTML in the Body.
+</p>
+
+<p>
+Give the H1 tag the id of "budget".
+</p>
+
+<p><img src="/img/budget-id.png"></p>
+
 <h3>ID Power</h3>
 <p>
-Imagine a webpage full of IDs. We can use JavaScript to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
+Imagine a webpage full of IDs. We can use JavaScript and the DOM to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
 </p>
 <p>
-In English, it says, "In this current document, get the thing with a particular ID and do something to it."
+In English, it says, "In this current document, get the element with a particular ID and do something to it."
 </p>
 <p>
 You'll be using <code>document.getElementByID();</code> often.
@@ -185,14 +195,7 @@ You don't necessarily want to build an entire webpage in JavaScript. Rather you 
 </p>
 <p>We need more foundational knowledge that will help us build up to controlling interactivity with button clicks or some user action and/or input. 
 </p> 
-<p>
-Create a page with the same budget info, but use HTML in the Body.
-</p>
 
-<p>
-Give the H1 tag the id of "budget".
-</p>
-<p><img src="/img/budget-id.png"></p>
 
 
 
