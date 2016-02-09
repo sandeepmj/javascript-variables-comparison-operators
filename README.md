@@ -107,7 +107,7 @@ Imagine a webpage full of IDs. We can use JavaScript and the DOM to target a par
 In English, it says, "In this current document, get the element with a particular ID and do something to it."
 </p>
 <p>
-You'll be using <code>document.getElementByID();</code> often.
+You'll be using <code>document.getElementByID();</code> often!
 </p>
 
 <p>
