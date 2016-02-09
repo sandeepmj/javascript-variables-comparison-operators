@@ -51,7 +51,7 @@
 
 <p>When you hit reload on your browser, you lose all the work in the console. You have to keep retyping the JavaScript. Instead, let's start adding code to a Sublime file where we can test, edit and retest.</p>
 
-<p>Use Command Line to create a directory call learning-js, and an index.html file inside the newly created folder.</p>
+<p>Use Command Line to create a directory called learning-js, and an index.html file inside the newly created folder.</p>
 
 <p>Launch the index.html file using subl in Command Line.</p>
 
@@ -82,7 +82,7 @@
 
 
 <h3>The DOM</h3>
-<p>We've typed <code>document.write()</code> a few times now. In English, we're simply telling JavaScript to write something on the document. We're not harnessing the power of JavaScript, we're simply writing into a default location on the document.</p>
+<p>We've typed <code>document.write()</code> a few times now. In English, we're simply telling JavaScript to write something on the document. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
 
 <p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
 <p>Doesn't quite make sense?</p>
@@ -99,7 +99,7 @@ Give the H1 tag the id of "budget".
 
 <p><img src="/img/budget-id.png"></p>
 
-<h3>ID Power</h3>
+<h3>DOM - ID Power</h3>
 <p>
 Imagine a webpage full of IDs. We can use JavaScript and the DOM to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
 </p>
@@ -132,6 +132,10 @@ Your page should look like this:
 <p>
 <img src = "/img/page-red.png">
 </p>
+
+<p>Using JavaScript and the DOM, you can change all instances of a particular class:</p>
+
+<p><code>document.getElementsbyClassName(nameOfClassHere)</code></p>
 
 <h3>
 The Style Object
