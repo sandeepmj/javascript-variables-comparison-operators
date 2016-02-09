@@ -1,6 +1,6 @@
 # <h1>JavaScript Lesson 1: Introduction</h1>
 
-<h3>Why Use JavaScript?</h3>
+<h2>Why Use JavaScript?</h2>
 <ul>
 <li>Widespread language that is built into modern browsers, including mobile browsers.</li>
 <li>Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.</li>
@@ -8,7 +8,7 @@
 </ul>
 
 
-<h3>Hello JavaScript Console </h3>
+<h2>Hello JavaScript Console </h2>
 
 <p>Visit <a href="http://www.this-page-intentionally-left-blank.org/">this blank page.</a></p>
 
@@ -81,8 +81,8 @@
 
 
 
-<h3>The DOM</h3>
-<p>We've typed <code>document.write()</code> a few times now. In English, we're simply telling JavaScript to write something on the document. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
+<h2>The DOM</h2>
+<p>We've typed <code>document.write();</code> a few times now. In English, we're simply telling JavaScript to write something on the document. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
 
 <p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
 <p>Doesn't quite make sense?</p>
@@ -135,8 +135,11 @@ Your page should look like this:
 
 <p>Using JavaScript and the DOM, you can change all instances of a particular class:</p>
 
-<p><code>document.getElementsbyClassName(nameOfClassHere)</code></p>
+<p><code>document.getElementsbyClassName(nameOfClassHere);</code></p>
 
+<p>You can also access by tags (like h1, p, li, etc):</p>
+
+<p><code>document.getElementsbyTagName(tagHere);</code></p>
 <h3>
 The Style Object
 </h3>
@@ -165,7 +168,7 @@ It should look like this:
 </p>
 
 
-<h3>JavaScript Good Habits</h3>
+<h3>Make JavaScript Easier to Read</h3>
 
 <ul>
 
@@ -181,14 +184,19 @@ It should look like this:
 <img src = "/img/easily-read.png"> 
 </p>
 
+
 <h3>Exercise One (15 minutes)</h3>
 
 <p>In Sublime, create a list of classes you are taking.</p>
 <ul>
-<li>Use JavaScript and HTML tags in the Head. </li>
-<li>There should be NO HTML in the Body.</li>
-<li>The title: "My Spring Courses"</li>
+<li>Create an HTML page. </li>
+<li>Use CSS IDs for each course.</li>
+<li>The title: "My Spring 2016 Courses"</li>
 <li>An unordered list of your course titles.</li>
+<li>The title and each course should have separate IDs.</li>
+<li>Style each ID in a different color in an external stylesheet.</li>
+<li>View the page.</li>
+<li>Now change the color of each line using JavaScript to manipulate the DOM.</li>
 
 
 <h3>Manipulating the Style</h3>
@@ -202,25 +210,7 @@ You don't necessarily want to build an entire webpage in JavaScript. Rather you 
 
 
 
-
-
-<h3>Exercise Two (15 minutes)</h3>
-<p>Rebuild your course list for the spring, but this time:</p>
-<p>
-	<li>
-		Place the HTMl in the body.
-	</li>
-	<li>
-		Add IDs for various content.
-	</li>
-	<li>
-		Style it JavaScript.
-	</li>
-
-
-</p>
-
-<h3>Variables</h3>
+<h2>Variables</h2>
 <p>Variables are placeholders for values.They can be any of the following:</p>
 <ul>
 <li>
@@ -345,7 +335,7 @@ var testString = 'It\'s time to sleep.';
 <img src="/img/escaping.png">
 </p>
 
-<h3>Exercise Three (10 minutes)</h3>
+<h3>Exercise Two (10 minutes)</h3>
 <p>Create variables for each of the following:</p>
 <ul>
 <li>"It's been</li>
@@ -436,7 +426,7 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <p>Going forward, ALWAYS place the link to your <code>.js</code> file right before the <code>&lt;/body&gt;</code> tag. This allows the page to be rendered first before the JavaScript is applied to it. Another reason to do this is that the more JavaScript you have in the <code>head</code>, the slower the page will load.</p>
 
-<h3>Exercise 4 (15 minutes)</h3>
+<h3>Exercise Three (15 minutes)</h3>
 
 <p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file.</p>
 
