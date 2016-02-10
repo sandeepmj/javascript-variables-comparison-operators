@@ -369,7 +369,7 @@ We get around this situation by using the <code>\ escape character.</code>
 <p>Try it. Type the following into your console:</p>
 
 <p>
-<code>var testString = "\"He could not find his keys,\"; the inspector said."</code>
+<code>var testString = "\"He could not find his keys,\" the inspector said."</code>
 </p>
 
 <p>
