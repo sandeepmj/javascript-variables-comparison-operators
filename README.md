@@ -475,11 +475,11 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <h3>Exercise Three (15 minutes)</h3>
 
-<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file.</p>
+<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file. Do NOT use <code>document.write</code> instead use <code>document.getElementById().innerHTML = "something here";</code></p>
 
 <h3>Homework</h3>
 
-<p>Create a Web page on which information is dynamically added from an external JavaScript file. Here's the info you need to accomplish: </p>
+<p>Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish: </p>
 
 <ul>
 	<li>Declare two numberic varibles.</li>
@@ -491,7 +491,7 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 	<li>Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.</li>
 </ul>
 
-<p>Monday, Feb. 15 by Noon on your github account. Share the URL on Slack (your instructor will tell you which channel.</p>
+<p> <strong>Due: Monday, Feb. 15 by Noon on your github account</strong>. Share the URL on Slack (your instructor will tell you which channel.</p>
 
 
 
