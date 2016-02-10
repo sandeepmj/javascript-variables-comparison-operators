@@ -294,7 +294,7 @@ It should look like this:
 	<li><strong>Clarity</strong> - you can assign meaningful names to variables. </li>
 	<li><strong>Reuseable</strong> - you can use the same variable in different places in your code.</li>
 	<li><strong>Time saver</strong> - you can change its value in one place and the new value is called on throughout your code</li>
-	<li><strong>Placeholder</strong> - a varible can be empty until some event or user action or input gives it a value.</li>
+	<li><strong>Placeholder</strong> - a variable can be empty until some event or user action or input gives it a value.</li>
 </ul>
 <br>
 <h3>Naming Variables</h3>
@@ -485,7 +485,7 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 <p>Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish: </p>
 
 <ul>
-	<li>Declare two numberic varibles.</li>
+	<li>Declare two numberic variables.</li>
 	<li>Add them together using a JavaScript operator.</li>
 	<li>Multiply them together using a JavaScript operator.</li>
 	<li>Divide one by the other using a JavaScript operator.</li>
