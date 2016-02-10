@@ -82,7 +82,7 @@
 
 
 <h2>The DOM</h2>
-<p>We've typed <code>document.write();</code> a few times now. In English, we're simply telling JavaScript to write something on the document. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
+<p>We've typed <code>document.write();</code> a few times now. In English, we're simply telling JavaScript to write something on the document, or our web page. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
 
 <p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
 <p>Doesn't quite make sense?</p>
@@ -94,7 +94,7 @@ Create a page with the same budget info, but use HTML in the Body.
 </p>
 
 <p>
-Give the H1 tag the id of "budget".
+Give the H1 tag the id of "budget". It should look like:
 </p>
 
 <p><img src="/img/budget-id.png"></p>
@@ -107,7 +107,7 @@ Imagine a webpage full of IDs. We can use JavaScript and the DOM to target a par
 In English, it says, "In this current document, get the element with a particular ID and do something to it."
 </p>
 <p>
-You'll be using <code>document.getElementByID();</code> often!
+You'll be using <code>document.getElementById();</code> often!
 </p>
 
 <p>
@@ -132,6 +132,8 @@ Your page should look like this:
 <p>
 <img src = "/img/page-red.png">
 </p>
+
+<p><img src="/img/mag-glass.jpg">JavaScript is case sensitive. <code>document.getElementById()</code> has to appear exactly as shown here.</p>
 
 <p>Using JavaScript and the DOM, you can change all instances of a particular class:</p>
 
@@ -183,6 +185,8 @@ It should look like this:
 <h3>Make JavaScript Easier to Read</h3>
 
 <ul>
+
+<li>Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes <code>// Comment here</code> </li>
 
 <li>White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.</li>
 
@@ -376,14 +380,14 @@ var testString = 'It\'s time to sleep.';
 </p>
 
 <h3>Exercise Two (10 minutes)</h3>
-<p>Create variables for each of the following:</p>
+<p>Create variables for each of the following (Those are quote marks):</p>
 <ul>
 <li>"It's been</li>
 <li>a hard days night</li>
 <li>and I've been working like a dog."</li>
 </ul>
 <p>
-Now create a varible that combines previous variables to create a complete sentence. 
+Now create a variable that combines previous variables to create a complete sentence. 
 </p>
 <p span="font-size: 5px;">HINT: strings can be added together.</p>
 <p>Create variables for the following:</p>
@@ -472,7 +476,7 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <h3>Homework</h3>
 
-<p>TK</p>
+<p></p>
 
 
 
