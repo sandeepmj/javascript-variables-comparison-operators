@@ -142,7 +142,7 @@ Your page should look like this:
 <p><code>document.getElementsbyTagName(tagHere);</code></p>
 
 
-<h3>Manipulating the Style</h3>
+<h3>Manipulating Style</h3>
 <p>
 You don't necessarily want to build an entire webpage in JavaScript. Rather you want to be able to manipulate existing pages when there is user input, an event or an input.
 </p>
@@ -213,8 +213,40 @@ It should look like this:
 <p>What happens when you reload the page?</p>
 
 
+<h3>InnerHTML</h3>
+<p>Another great feature of being able to manipulate the DOM is that you can change the actual text that any tag contains using the <code>innerHTML</code> <code>document.getElementById("IdName").innerHTML = "New Text Here";</code></p>
 
+<p>Let's try it:</p>
+<ul>
+	<li>
+		Create an index.html file through the Command Line, and open it via subl.
+	</li>
+	<li>Create a basic html document and add <code>&lt;div id=&quot;test&quot;&gt;Something here?&lt;/div&gt;</code> in the body.</li>
+</ul>
+<p><img src="/img/innerhtml-0.png"> </p>
 
+<p>Here's what you should see in the browser:</p>
+
+<p><img src="/img/innerhtml-1.png"></p>
+
+<p>
+<ul>
+	<li>Now, just before the closing add <code>&lt;script&gt;
+	document.getElementById(&quot;test&quot;).innerHTML = &quot;Like magic, it appears!&quot;;
+&lt;/script&gt;</code></p></li>
+	
+<li>Reload your browser window. What do you see?</li>
+</ul>
+<p>Hopefully you see:</p>
+
+<p><img src="/img/innerhtml-2.png"></p>
+
+<p>But when you use view the source, you see that the content in the div has changed at all, but rather the JavaScript and <code>.innerHTML</code>has dynamically changed the text in the div.</p>
+
+<p><img src="/img/innerhtml-3.png"></p>
+<br>
+
+<p>Next week, we'll learn how to trigger the change based on user action/input.</p>
 
 
 <h2>Variables</h2>
