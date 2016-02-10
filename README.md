@@ -23,20 +23,23 @@
 
 <p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes.</p>
 
+<h3>Really, type it out</h3>
+<p>I don't know why it happens at a cognitive level, but unless you type out the code, you won't reall understand out it works. So even though I provide each line of code we'll use, please do type it out.</p>
+
 <h3>Adding HTML using JavaScript:</h3>
 
-<p>Type: 
+<p>Type and then hit enter: 
 
 	<code>document.write("You make $1000 per month but your expenses are $1100 per month.");</code></p>
 
-<p>You can copy and paste part of this, but type: </p>
+<p>Type and then hit enter: </p>
 <p>
 <code>document.write("Your Budget Anlysis. You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!");</code>
 </p>
 
 <p>It appears as one long paragraph. Let's add some HTML to provide more structure:</p>
 
-<p>Type: </p>
+<p>Type and then hit enter: </p>
 <p>
 	<pre>
 	<code>
@@ -186,7 +189,7 @@ It should look like this:
 
 <ul>
 
-<li>Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes <code>// Comment here</code> </li>
+<li>Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes <code>// Comment here</code> usually at the end of the line of code. </li>
 
 <li>White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.</li>
 
@@ -476,7 +479,19 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 
 <h3>Homework</h3>
 
-<p></p>
+<p>Create a Web page on which information is dynamically added from an external JavaScript file. Here's the info you need to accomplish: </p>
+
+<ul>
+	<li>Declare two numberic varibles.</li>
+	<li>Add them together using a JavaScript operator.</li>
+	<li>Multiply them together using a JavaScript operator.</li>
+	<li>Divide one by the other using a JavaScript operator.</li>
+	<li>Subtract one from the other using a JavaScript operator.</li>
+	<li>Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable." </li>
+	<li>Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.</li>
+</ul>
+
+<p>Monday, Feb. 15 by Noon on your github account. Share the URL on Slack (your instructor will tell you which channel.</p>
 
 
 
