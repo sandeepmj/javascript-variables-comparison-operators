@@ -237,11 +237,12 @@ It should look like this:
 	
 <li>Reload your browser window. What do you see?</li>
 </ul>
+<br>
 <p>Hopefully you see:</p>
 
 <p><img src="/img/innerhtml-2.png"></p>
 
-<p>But when you use view the source, you see that the content in the div has changed at all, but rather the JavaScript and <code>.innerHTML</code>has dynamically changed the text in the div.</p>
+<p>But when you use view the source, you see that the content in the div has NOT changed at all, but rather the JavaScript and <code>.innerHTML</code>has dynamically changed the text in the div.</p>
 
 <p><img src="/img/innerhtml-3.png"></p>
 <br>
