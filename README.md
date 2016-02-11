@@ -491,6 +491,8 @@ Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascrip
 	<li>Divide one by the other using a JavaScript operator.</li>
 	<li>Subtract one from the other using a JavaScript operator.</li>
 	<li>Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable." </li>
+	<li>You must use <code>document.getElementById().innerHTML</code></li>
+	<li>Do NOT use <code>document.write</code>.</li>
 	<li>Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.</li>
 </ul>
 
