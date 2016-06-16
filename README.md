@@ -8,7 +8,7 @@
 </ul>
 
 
-<h2>Hello JavaScript Console Test </h2>
+<h2>Hello JavaScript Console</h2>
 
 <p>Visit <a href="http://www.this-page-intentionally-left-blank.org/">this blank page.</a></p>
 
