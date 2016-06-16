@@ -427,7 +427,7 @@ Now create a variable that combines previous variables to create a complete sent
 
 </ul>
 <br>
-<p>Let's use Command Line to create a JavaScript file.</p>
+<p>[Social J students - ignore Command Line instructions] Let's use Command Line to create a JavaScript file.</p>
 <ol type="1">
 	<li>
 		Make a new directory call my-first-js using <code>mkdir</code>.
