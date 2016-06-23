@@ -238,7 +238,7 @@ It should look like this:
 
 <p>
 <ul>
-	<li>Now, just before the closing add <code>&lt;script&gt;
+	<li>Now, just before the closing tag add <code>&lt;script&gt;
 	document.getElementById(&quot;test&quot;).innerHTML = &quot;Like magic, it appears!&quot;;
 &lt;/script&gt;</code></p></li>
 	
@@ -254,7 +254,7 @@ It should look like this:
 <p><img src="/img/innerhtml-3.png"></p>
 <br>
 
-<p>Next week, we'll learn how to trigger the change based on user action/input.</p>
+<p>Now we'll learn how to trigger the change based on user action/input.</p>
 
 
 <h2>Variables</h2>
