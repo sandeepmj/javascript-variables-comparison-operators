@@ -254,7 +254,7 @@ It should look like this:
 <p><img src="/img/innerhtml-3.png"></p>
 <br>
 
-<p>Now we'll learn how to trigger the change based on user action/input.</p>
+<p>Soon we'll learn how to trigger the change based on user action/input.</p>
 
 
 <h2>Variables</h2>
