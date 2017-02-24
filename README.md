@@ -28,7 +28,7 @@ If you see "Hello World!" appear in your browser, congrats! Your just wrote your
 
 I don't know why it happens at a cognitive level, but unless you type out the code, you won't reall understand out it works. So even though I provide each line of code we'll use, please do type it out.
 
- <
+<
 
 ## The DOM
 
@@ -58,54 +58,6 @@ For example, reformated code with proper line breaks is now easier to read compa
 ![](/img/easily-read.png)
 
 ### Exercise One (15 minutes)
-
-In Sublime, create a list of classes you are taking.
-
-- Create an HTML page.
-- Use CSS IDs for each course.
-- The title: "My Spring 2016 Courses"
-- An unordered list of your course titles.
-- The title and each course should have separate IDs.
-- Style each ID in a different color in an external stylesheet.
-- View the page.
-- Now change the color of each course using JavaScript to manipulate the DOM.
-
-What happens when you reload the page?
-
-### InnerHTML
-
-Another great feature of being able to manipulate the DOM is that you can change the actual text that any tag contains using the `innerHTML` `document.getElementById("IdName").innerHTML = "New Text Here";`
-
-Let's try it:
-
-- Create an index.html file through the Command Line, and open it via subl.
-- Create a basic html document and add `<div id="test">Something here?</div>` in the body.
-
-![](/img/innerhtml-0.png)
-
-Here's what you should see in the browser:
-
-![](/img/innerhtml-1.png)
-
-
-
-- Now, just before the closing tag add `<script> document.getElementById("test").innerHTML = "Like magic, it appears!"; </script>`
-
-- Reload your browser window. What do you see?
-
-<br>
-
-Hopefully you see:
-
-![](/img/innerhtml-2.png)
-
-But when you use view the source, you see that the content in the div has NOT changed at all, but rather the JavaScript and `.innerHTML`has dynamically changed the text in the div.
-
-![](/img/innerhtml-3.png)
-
-<br>
-
-Soon we'll learn how to trigger the change based on user action/input.
 
 ## Variables
 
@@ -143,7 +95,7 @@ You should get -100.
 ### Why use Variables?
 
 - **Clarity** - you can assign meaningful names to variables.
-- **Reuseable** - you can use the same variable in different places in your code.
+- **Reusability** - you can use the same variable in different places in your code.
 - **Time saver** - you can change its value in one place and the new value is called on throughout your code
 - **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
 
@@ -243,51 +195,7 @@ Flip the order of adding them together. What do you get?
 
 ![](/img/mag-glass.jpg)What's happening?
 
-### External JavaScript File
-
-As your JavaScript code gets more involved and longer, it will clutter up your HTML file (and slow its response time).
-
-Or you have several HTML files that require the same JavaScript. You don't want to same JavaScript repeated across many files. It's a pain to fix one error (let alone many errors) across numberous files.
-
-It's good practice to place your JavaScript into an external file -- just like you've been placing your CSS into an external stylesheet for several reasons.
-
-- All HTML pages across a website can call the same JavaScript located in one external page.
-- Keeps your HTML free of code, making it reasier to read.
-- Keeps your JavaScript free of HTML, making it easier to read.
-- A browser will cache that JavaScript file, speeding up load time on each HTML page.
-
 <br>
-
-**[Social J students - ignore Command Line instructions]** Let's use Command Line to create a JavaScript file.
-
-1. Make a new directory call my-first-js using `mkdir`.
-2. Navigate into your directory (or folder) using `cd`.
-3. Create three different files at one time using `touch index.html page2.html myjavascript.js mystylesheet.css`.
-4. Open all the files at one time using `subl .` and all should appear.
-5. In the `index.html` file, add the basic HTML that all HTML files require.
-6. In `index.html` add `<p>Content I typed into page 1.</p>` with the opening and closing `body` tags.
-7. In `page2.html` add `<p>Content I typed into page 2.</p>` with the opening and closing `body` tags.
-8. In both the HTML files, add the following into the `head`: `<script type="text/javascript" src="myjavascript.js"></script>`
-9. In the `myjavascript.js` file, type `document.write("Content created using JavaScript");`
-10. After saving all files, open them in your browser.
-
-What do you see?
-
-Here's what you should see:
-
-![](/img/external-js.png)
-
-Move the `<script type="text/javascript" src="myjavascript.js"></script>` out of the `head` and place right before the `</body>` tag.
-
-What happens?
-
-Going forward, ALWAYS place the link to your `.js` file right before the `</body>` tag. This allows the page to be rendered first before the JavaScript is applied to it. Another reason to do this is that the more JavaScript you have in the `head`, the slower the page will load.
-
-### Exercise Three (15 minutes)
-
-Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in `index.html` file beyond the barebones required HTML and link to the external JavaScript file.
-
-Do NOT use `document.write` instead use `document.getElementById().innerHTML = "something here";`.
 
 ### Homework
 
