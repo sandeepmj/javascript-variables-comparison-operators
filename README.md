@@ -12,39 +12,7 @@
 
 Visit [this blank page.](http://www.this-page-intentionally-left-blank.org/)
 
-Open the browser's JavaScript console by using **command**-**option**-**J** (⌘ ⌥ J). Ideally you are using Chrome or Firefox.
-
-Type: document.write("hello world!");
-
-![](/img/console.png)
-
-If you see "Hello World!" appear in your browser, congrats! Your just wrote your first bit of JavaScript.
-
-![](/img/mag-glass.jpg)Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without it, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.
-
-![](/img/mag-glass.jpg) If it didn't work, make sure all quote marks are straight quotes rather than curly quotes.
-
-### Really, type it out
-
-I don't know why it happens at a cognitive level, but unless you type out the code, you won't reall understand out it works. So even though I provide each line of code we'll use, please do type it out.
-
-<
-
-## The DOM
-
-We've typed `document.write();` a few times now. In English, we're simply telling JavaScript to write something on the document, or our web page. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.
-
-Here's where the **DOM**, or **Document Object Model**, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.
-
-Doesn't quite make sense?
-
-The best thing is to try it out.
-
-Create a page with the same budget info, but use HTML in the Body.
-
-Give the H1 tag the id of "budget". It should look like:
-
-![](/img/budget-id.png)
+Open the browser's JavaScript console by using **command**-**option**-**J** (⌘ ⌥ J). Ideally you are using Chrome.
 
 ### Make JavaScript Easier to Read
 
@@ -53,20 +21,24 @@ Give the H1 tag the id of "budget". It should look like:
 - Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.
 - Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)
 
-For example, reformated code with proper line breaks is now easier to read compared to the earlier code:
+For example, reformatted code with proper line breaks is now easier to read compared to the earlier code:
 
 ![](/img/easily-read.png)
 
 ### Exercise One (15 minutes)
 
+????????
+
 ## Variables
 
 Variables are placeholders for values.They can be any of the following:
 
-- Numbers.
-- Strings, that are made up of letter, words, sentences, etc.
-- A placeholder that receives its value based on computation or concatenation of other variables.
-- A Boolean value, which can only be `true` or `false`.
+- **Numbers**.
+- **Strings**, that are made up of letter, words, sentences, etc.
+- A **placeholder** that receives its value based on computation or concatenation of other variables.
+- A **Boolean** value, which can only be `true` or `false`.
+- An **Array** that holds a multiple values in one variable.
+- An **Object**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
 
 <br>
 
@@ -145,6 +117,10 @@ For example:
 You can also declare a variable and assign a value based on a computation at one time:
 
 ![](/img/monthly-after-declaration.png)
+
+### Naming Variables
+
+EXPLAIN GLOBAL SCOPE V. LOCAL SCOPE
 
 ### Escaping Special Characters
 
@@ -267,8 +243,6 @@ Add an alert with a different message into your second button.
 
 Now we come to one of the real strengths of just about any programming language - the **Function**. Let's actually just put a function to work before I even define it. Inside your button tag, add `onclick='myAlert()'`. In an external JavaScript file, add the following:
 
-
-
 ![](/img/js1.png)
 
 What happens when you click on button 1?
@@ -283,9 +257,7 @@ It should look like this:
 
 ![](/img/button3.png)
 
- Then type the following into your js file:
-
-
+Then type the following into your js file:
 
 ![](/img/function1.png)
 
@@ -372,11 +344,7 @@ I created a `form2.html` that is exactly the same except I'm pointing it to `mai
 
 ![](/img/compjs.png)
 
-
-
 ## Homework
-
-
 
 Using JavaScript learned over the past two weeks, create a simple calculator to inform your audience whether they should buy a monthly MetroCard or a per ride MetroCard based on how many times they ride the subway per month.
 
