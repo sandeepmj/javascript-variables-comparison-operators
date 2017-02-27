@@ -77,7 +77,27 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 - Keep the variables short but make sure they make sense.
 - Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
 
-<br>
+### Declaring a Variable
+
+- For a number, you simply type `var someNumberDog = 123;`
+
+- For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
+
+![](/img/mag-glass.jpg)
+
+What's the difference between naming a variable that holds a number and a string?
+
+- Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
+
+- You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `var somePlaceholderDogName;` to declare a variable with no value.
+
+For example:
+
+![](/img/monthly-declaration.png)
+
+- You can also declare a variable and assign a value based on a computation at one time:
+
+![](/img/monthly-after-declaration.png)
 
 You might not remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.
 
@@ -93,27 +113,7 @@ You get the same results but you won't be confused by these variables later as y
 
 ![](/img/monthly.png)
 
-### Declaring a Variable
-
-For a number, you simply type `var someNumberDog = 123;`
-
-For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
-
-![](/img/mag-glass.jpg)What's the difference between naming a variable that holds a number and a string?
-
-Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
-
-You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `**var** myPlaceholder;` to declare a variable with no value.
-
-For example:
-
-![](/img/monthly-declaration.png)
-
-You can also declare a variable and assign a value based on a computation at one time:
-
-![](/img/monthly-after-declaration.png)
-
-### Naming Variables
+### Global v. Local
 
 EXPLAIN GLOBAL SCOPE V. LOCAL SCOPE
 
