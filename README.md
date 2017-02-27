@@ -21,10 +21,6 @@ Open the browser's JavaScript console by using **command**-**option**-**J** (⌘
 - Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.
 - Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)
 
-For example, reformatted code with proper line breaks is now easier to read compared to the earlier code:
-
-![](/img/easily-read.png)
-
 ### Exercise One (15 minutes)
 
 ????????
@@ -40,7 +36,12 @@ Variables are placeholders for values.They can be any of the following:
 - An **Array** that holds a multiple values in one variable.
 - An **Object**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
 
-<br>
+## How Might We Use Variables in Journalistic Interactives?
+
+- Compare user input/selection against existing data.
+- Store large amounts of organized information and pull out key info based on user interaction.
+- Take a user input, run it through a formula and store the result to be used later.
+- Compare the information stored in variables
 
 Let's try some out.
 
