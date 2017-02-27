@@ -100,9 +100,9 @@ You get the same results but you won't be confused by these variables later as y
 
 ### Declaring a Variable
 
-For a number, you simply type `**var** myInfo = someNumber;`
+For a number, you simply type `var someNumberDog = 123;`
 
-For a string, you type `**var** myInfo = "Some string of letters, words, etc.";`
+For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
 
 ![](/img/mag-glass.jpg)What's the difference between naming a variable that holds a number and a string?
 
