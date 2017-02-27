@@ -1,18 +1,20 @@
 #
 
-# JavaScript Lesson 1: Introduction
+# JavaScript: Variables
 
-## Why Use JavaScript?
-
-- Widespread language that is built into modern browsers, including mobile browsers.
-- Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.
-- Tap data, images and other content from remote sources to populate your site.
+We now move away from using coding to simply add interactivity to a website. We harness it's ability to calculate and to compare -- all foundations for programming logic.
 
 ## Hello JavaScript Console
 
 Visit [this blank page.](http://www.this-page-intentionally-left-blank.org/)
 
-Open the browser's JavaScript console by using **command**-**option**-**J** (⌘ ⌥ J). Ideally you are using Chrome.
+Open the browser's JavaScript console by using **command**-**option**-**J** (⌘ ⌥ J). Use Chrome!
+
+Click on console
+
+Let's do some simple math:
+
+![](/img/basicmath.png)
 
 ### Make JavaScript Easier to Read
 
@@ -25,8 +27,6 @@ Open the browser's JavaScript console by using **command**-**option**-**J** (⌘
 
 ????????
 
-## Variables
-
 Variables are placeholders for values.They can be any of the following:
 
 - **Numbers**.
@@ -36,14 +36,7 @@ Variables are placeholders for values.They can be any of the following:
 - An **Array** that holds a multiple values in one variable.
 - An **Object**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
 
-## How Might We Use Variables in Journalistic Interactives?
-
-- Compare user input/selection against existing data.
-- Store large amounts of organized information and pull out key info based on user interaction.
-- Take a user input, run it through a formula and store the result to be used later.
-- Compare the information stored in variables
-
-Let's try some out.
+## Variables at Work.
 
 Back in the console, type `var x = 1000;` and hit enter.
 
@@ -64,6 +57,13 @@ Type `x - y` into the console.
 You should get -100.
 
 ![](/img/variables.png)
+
+## How Might We Use Variables in Journalistic Interactives?
+
+- Compare user input/selection against existing data.
+- Store large amounts of organized information and pull out key info based on user interaction.
+- Take a user input, run it through a formula and store the result to be used later.
+- Compare the information stored in variables.
 
 ### Why use Variables?
 
