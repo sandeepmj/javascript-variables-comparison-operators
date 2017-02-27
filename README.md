@@ -1,502 +1,351 @@
-# <h1>JavaScript Lesson 1: Introduction</h1>
+#
 
-<h2>Why Use JavaScript?</h2>
-<ul>
-<li>Widespread language that is built into modern browsers, including mobile browsers.</li>
-<li>Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.</li>
-<li>Tap data, images and other content from remote sources to populate your site.</li>
-</ul>
+# JavaScript Lesson 1: Introduction
 
+## Why Use JavaScript?
 
-<h2>Hello JavaScript Console</h2>
+- Widespread language that is built into modern browsers, including mobile browsers.
+- Add interactivity to your websites by changing the HTML/CSS based on user action, an event or input.
+- Tap data, images and other content from remote sources to populate your site.
 
-<p>Visit <a href="http://www.this-page-intentionally-left-blank.org/">this blank page.</a></p>
+## Hello JavaScript Console
 
-<p>Open the browser's JavaScript console by using <strong>command</strong>-<strong>option</strong>-<strong>J</strong> (&#8984; &#8997; J). Ideally you are using Chrome or Firefox.</p>
+Visit [this blank page.](http://www.this-page-intentionally-left-blank.org/)
 
-<p>Type: document.write("hello world!");</p>
+Open the browser's JavaScript console by using **command**-**option**-**J** (⌘ ⌥ J). Ideally you are using Chrome.
 
-<img src="/img/console.png">
-<p>If you see "Hello World!" appear in your browser, congrats! Your just wrote your first bit of JavaScript.</p>
+### Make JavaScript Easier to Read
 
-<p><img src="/img/mag-glass.jpg">Why the semi-colon? Because semi-colons end JavaScript statements. Your code is likely to work without it, but as your code gets more complex, the semi-colon will play an valuable role. Basically, if unsure, just use a colon.</p>
+- Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes `// Comment here` usually at the end of the line of code.
+- White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.
+- Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.
+- Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)
 
-<p><img src="/img/mag-glass.jpg"> If it didn't work, make sure all quote marks are straight quotes rather than curly quotes.</p>
+For example, reformatted code with proper line breaks is now easier to read compared to the earlier code:
 
-<h3>Really, type it out</h3>
-<p>I don't know why it happens at a cognitive level, but unless you type out the code, you won't reall understand out it works. So even though I provide each line of code we'll use, please do type it out.</p>
+![](/img/easily-read.png)
 
-<h3>Adding HTML using JavaScript:</h3>
+### Exercise One (15 minutes)
 
-<p>Type and then hit enter: 
+????????
 
-	<code>document.write("You make $1000 per month but your expenses are $1100 per month.");</code></p>
+## Variables
 
-<p>Type and then hit enter: </p>
-<p>
-<code>document.write("Your Budget Anlysis. You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!");</code>
-</p>
+Variables are placeholders for values.They can be any of the following:
 
-<p>It appears as one long paragraph. Let's add some HTML to provide more structure:</p>
+- **Numbers**.
+- **Strings**, that are made up of letter, words, sentences, etc.
+- A **placeholder** that receives its value based on computation or concatenation of other variables.
+- A **Boolean** value, which can only be `true` or `false`.
+- An **Array** that holds a multiple values in one variable.
+- An **Object**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
 
-<p>Type and then hit enter: </p>
-<p>
-	<pre>
-	<code>
-	document.write(&quot;&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&quot;);
-	</code>
-	</pre>
-</p>
-	
-
-
-<h3>Sublime Time</h3>
-
-<p>When you hit reload on your browser, you lose all the work in the console. You have to keep retyping the JavaScript. Instead, let's start adding code to a Sublime file where we can test, edit and retest.</p>
-
-<p>Use Command Line to create a directory called learning-js, and an index.html file inside the newly created folder.</p>
-
-<p>Launch the index.html file using subl in Command Line.</p>
-
-<p>Set up basic html document with doctype, html, head and body with closing tags too. It should look like this:</p>
-
-<p><img src="/img/basic-html.png"></p>
-
-<p>Add the following script tags into the head:</p>
-<p>
-<code>&lt;script type=&quot;text/javascript&quot;&gt;
-&lt;/script&gt;</code> </p>
-
-<p>Type the following in between the opening and closing script tags: </p>
-
-<p>
-	<pre>
-<code>document.write(&quot;&lt;h2&gt;Your Budget Analysis&lt;/h2&gt;&lt;p&gt;You make $1000 per month but your expenses are $1100 per month. You need to earn more or spend less!&lt;/p&gt;&lt;p&gt;Here are some ways to save money:&lt;/p&gt;&lt;li&gt;Bring your lunch to work.&lt;/li&gt;&lt;li&gt;Stop taking cabs.&lt;/li&gt;&lt;li&gt;Stop shopping at Whole Foods.&lt;/li&gt;&quot;);</code>
-	</p>
-</pre>
-<p>Open your index.html file in chrome. You should see a formatted HTML page.</p>
-
-<p><img src="/img/budget-js.png"></p>
-
-<p>View Source the browser page and you'll see that you created an HTML page without any HTML in the body. It's all JavaScript:</p>
-
-<p><img src="/img/html-normally-here.png"></p>
-
-
-
-<h2>The DOM</h2>
-<p>We've typed <code>document.write();</code> a few times now. In English, we're simply telling JavaScript to write something on the document, or our web page. However, we're not harnessing the power of JavaScript. We're simply writing into a default location on the document.</p>
-
-<p>Here's where the <strong>DOM</strong>, or <strong>Document Object Model</strong>, comes into play. Think of a Webpage as a document. The HTML gives structure to the content on the page. The document owns all the HTML on the page -- creating an "object" that represents the page and all its content. We use JavaScript to access and manipulate, or change, various elements in this document object. Later, you'll begin to create new elements where they didn't exist on the page.</p>
-<p>Doesn't quite make sense?</p>
-
-<p>The best thing is to try it out.</p>
-
-<p>
-Create a page with the same budget info, but use HTML in the Body.
-</p>
-
-<p>
-Give the H1 tag the id of "budget". It should look like:
-</p>
-
-<p><img src="/img/budget-id.png"></p>
-
-<h3>DOM - ID Power</h3>
-<p>
-Imagine a webpage full of IDs. We can use JavaScript and the DOM to target a particular ID and do something to it using the <code>document.getElementbyId()</code> method.
-</p>
-<p>
-In English, it says, "In this current document, get the element with a particular ID and do something to it."
-</p>
-<p>
-You'll be using <code>document.getElementById();</code> often!
-</p>
-
-<p>
-Let's try it. At the bottom of the page (but before the closing Body tag), add following:
-</p>
-
-<p>
-	<code>
-	&lt;script type=&quot;text/javascript&quot;&gt;
-	document.getElementById(&quot;budget&quot;).style.color = &quot;red&quot;;
-&lt;/script&gt;
-	</code>
-</p>
-
-<p>
-<img scr="/img/style-color.png">
-</p>
-
-<p>
-Your page should look like this:
-</p>
-<p>
-<img src = "/img/page-red.png">
-</p>
-
-<p><img src="/img/mag-glass.jpg">JavaScript is case sensitive. <code>document.getElementById()</code> has to appear exactly as shown here.</p>
-
-<p>Using JavaScript and the DOM, you can change all instances of a particular class:</p>
-
-<p><code>document.getElementsbyClassName(nameOfClassHere);</code></p>
-
-<p>You can also access by tags (like h1, p, li, etc):</p>
-
-<p><code>document.getElementsbyTagName(tagHere);</code></p>
-
-
-<h3>Manipulating Style</h3>
-<p>
-You don't necessarily want to build an entire webpage in JavaScript. Rather you want to be able to manipulate existing pages when there is user input, an event or an input.
-</p>
-<p>But we aren’t there yet.
-</p>
-<p>We need more foundational knowledge that will help us build up to controlling interactivity with button clicks or some user action and/or input. 
-</p> 
-
-<h3>
-The Style Object
-</h3>
-<p>
-	Color is just one of about 100 styling objects. Find the <a href="http://www.w3schools.com/jsref/dom_obj_style.asp">full list here</a>. I use just a fraction of these, but feel free to experiment.
-</p>
-<p>
-Add the following between the script tags:
-</p>
-<p>
-<code>
-document.getElementById("budget").style.fontFamily = "Arial";
-document.getElementById("budget").style.textTransform = "uppercase";
-</code>
-</p>
-<p>
-	<img src ="/img/more-style.png">
-</p>
-
-<p>
-It should look like this:
-</p>
-
-<p>
-<img src="/img/styled.png">
-</p>
-
-
-
-<h3>Make JavaScript Easier to Read</h3>
-
-<ul>
-
-<li>Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes <code>// Comment here</code> usually at the end of the line of code. </li>
-
-<li>White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.</li>
-
-<li>Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.</li>
-
-<li>Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)</li>
-</ul>
-
-<p>For example, reformated code with proper line breaks is now easier to read compared to the earlier code:</p>
-<p>
-<img src = "/img/easily-read.png"> 
-</p>
-
-
-<h3>Exercise One (15 minutes)</h3>
-
-<p>In Sublime, create a list of classes you are taking.</p>
-<ul>
-<li>Create an HTML page. </li>
-<li>Use CSS IDs for each course.</li>
-<li>The title: "My Spring 2016 Courses"</li>
-<li>An unordered list of your course titles.</li>
-<li>The title and each course should have separate IDs.</li>
-<li>Style each ID in a different color in an external stylesheet.</li>
-<li>View the page.</li>
-<li>Now change the color of each course using JavaScript to manipulate the DOM.</li>
-
-<p>What happens when you reload the page?</p>
-
-
-<h3>InnerHTML</h3>
-<p>Another great feature of being able to manipulate the DOM is that you can change the actual text that any tag contains using the <code>innerHTML</code> <code>document.getElementById("IdName").innerHTML = "New Text Here";</code></p>
-
-<p>Let's try it:</p>
-<ul>
-	<li>
-		Create an index.html file through the Command Line, and open it via subl.
-	</li>
-	<li>Create a basic html document and add <code>&lt;div id=&quot;test&quot;&gt;Something here?&lt;/div&gt;</code> in the body.</li>
-</ul>
-<p><img src="/img/innerhtml-0.png"> </p>
-
-<p>Here's what you should see in the browser:</p>
-
-<p><img src="/img/innerhtml-1.png"></p>
-
-<p>
-<ul>
-	<li>Now, just before the closing tag add <code>&lt;script&gt;
-	document.getElementById(&quot;test&quot;).innerHTML = &quot;Like magic, it appears!&quot;;
-&lt;/script&gt;</code></p></li>
-	
-<li>Reload your browser window. What do you see?</li>
-</ul>
-<br>
-<p>Hopefully you see:</p>
-
-<p><img src="/img/innerhtml-2.png"></p>
-
-<p>But when you use view the source, you see that the content in the div has NOT changed at all, but rather the JavaScript and <code>.innerHTML</code>has dynamically changed the text in the div.</p>
-
-<p><img src="/img/innerhtml-3.png"></p>
 <br>
 
-<p>Soon we'll learn how to trigger the change based on user action/input.</p>
+Let's try some out.
 
+Back in the console, type `var x = 1000;` and hit enter.
 
-<h2>Variables</h2>
-<p>Variables are placeholders for values.They can be any of the following:</p>
-<ul>
-<li>
-	Numbers.
-</li>
-<li>
-	Strings, that are made up of letter, words, sentences, etc. 
-</li>
-<li>
-	A placeholder that receives its value based on computation or concatenation of other variables.
-</li>
-<li>
-	A Boolean value, which can only be <code>true</code> or <code>false</code>.
-</li>
+In the next line, type x
 
+You should see "1000".
 
-</ul>
+Now type, `var y = 1100;` and hit enter.
+
+Now type y
+
+You should see "1100".
+
+Now for something that neither HTML or CSS can do: Math.
+
+Type `x - y` into the console.
+
+You should get -100.
+
+![](/img/variables.png)
+
+### Why use Variables?
+
+- **Clarity** - you can assign meaningful names to variables.
+- **Reusability** - you can use the same variable in different places in your code.
+- **Time saver** - you can change its value in one place and the new value is called on throughout your code
+- **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
+
 <br>
-<p>
-	Let's try some out.
-</p>
-<p>Back in the console, type <code>var x = 1000;</code> and hit enter.</p>
-<p>In the next line, type x</p>
-<p>You should see "1000".</p>
-<p>Now type, <code>var y = 1100;</code> and hit enter.</p>
-<p>Now type y</p>
-<p>You should see "1100".</p>
-<p>Now for something that neither HTML or CSS can do: Math.</p>
-<p>Type <code>x - y </code>into the console.</p>
-<p>You should get -100.</p>
-<p><img src="/img/variables.png"></p>
-<h3>Why use Variables? </h3>
-<ul>
-	<li><strong>Clarity</strong> - you can assign meaningful names to variables. </li>
-	<li><strong>Reuseable</strong> - you can use the same variable in different places in your code.</li>
-	<li><strong>Time saver</strong> - you can change its value in one place and the new value is called on throughout your code</li>
-	<li><strong>Placeholder</strong> - a variable can be empty until some event or user action or input gives it a value.</li>
-</ul>
+
+### Naming Variables
+
+The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules:
+
+- They ARE case sensitive.
+- Cannot begin with numbers.
+- No spaces between words, instead use underscores, hypens or camelCase.
+- Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
+
 <br>
-<h3>Naming Variables</h3>
-<p>The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules: </p>
 
-<ul>
-	<li>
-		They ARE case sensitive.
-	</li>
-	<li>
-		Cannot begin with numbers.
-	</li>
-	<li>
-		No spaces between words, instead use underscores, hypens or camelCase.
-	</li>
-	<li>
-		Don't use any JavaScript <a href="http://www.w3schools.com/js/js_reserved.asp">reserved words</a>.
-	</li>
+You might not remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.
 
+Type:
 
+`var monthlyPaycheck = 1000;` and hit enter.
 
-</ul>
-<br>
-<p>You might not remember what x and y variables stand for once you deep into your code, but you will remember what monthlyPaycheck and MonthlyExpenses stand for.</p>
-<p>Type:</p>
-<p><code>var monthlyPaycheck = 1000;</code> and hit enter.</p>
-<p><code>var monthlyExpenses = 1100;</code> and hit enter.</p>
-<p><code>monthlyPaycheck - monthlyExpenses</code> and hit enter.</p>
-<p>You get the same results but you won't be confused by these variables later as you would be by x and y.</p>
-<p><img src="/img/monthly.png"></p>
+`var monthlyExpenses = 1100;` and hit enter.
 
-<h3>Declaring a Variable</h3>
+`monthlyPaycheck - monthlyExpenses` and hit enter.
 
+You get the same results but you won't be confused by these variables later as you would be by x and y.
 
-<p>For a number, you simply type <code><strong>var</strong> myInfo = someNumber;</code></p>
-<p>For a string, you type <code><strong>var</strong> myInfo = "Some string of letters, words, etc.";</code></p>
+![](/img/monthly.png)
 
-<p><img src="/img/mag-glass.jpg">What's the difference between naming a variable that holds a number and a string?</p>
+### Declaring a Variable
 
-<p>Strings must be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. You can't mix and match.</p>
+For a number, you simply type `**var** myInfo = someNumber;`
 
-<p>You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type <code><strong>var</strong> myPlaceholder;</code> to declare a variable with no value.</p>
-<p>For example:</p>
-<p><img src="/img/monthly-declaration.png"></p>
-<p>You can also declare a variable and assign a value based on a computation at one time:</p>
-<p> 
-	<img src="/img/monthly-after-declaration.png">
-</p>
+For a string, you type `**var** myInfo = "Some string of letters, words, etc.";`
 
-<h3>Escaping Special Characters</h3>
-<p>
+![](/img/mag-glass.jpg)What's the difference between naming a variable that holds a number and a string?
+
+Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
+
+You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `**var** myPlaceholder;` to declare a variable with no value.
+
+For example:
+
+![](/img/monthly-declaration.png)
+
+You can also declare a variable and assign a value based on a computation at one time:
+
+![](/img/monthly-after-declaration.png)
+
+### Naming Variables
+
+EXPLAIN GLOBAL SCOPE V. LOCAL SCOPE
+
+### Escaping Special Characters
+
 Type the following into your console:
-</p>
-<p><code>var testString = ""He could not find his keys," the inspector said.";</code></p>
 
-<p>
-<code>
-var testString = 'It's time to sleep.';
-</code>
-</p>
-<p>
-	<img src="/img/string-quotes-error.png">
-</p>
-<p>You get an error. Why?</p>
+`var testString = ""He could not find his keys," the inspector said.";`
 
-<p>You'll recall that strings in a variable have to be contained within either <code>'Single Quotes'</code> or <code>"Double Quotes"</code>. The problem occurs when a <code>"Double Quotes"</code> string itself contains a quotation. Or a <code>'Single Quotes'</code> string has a contraction that uses an apostrophe.  </p>
+`var testString = 'It's time to sleep.';`
 
-<p>
-We get around this situation by using the <code>\ escape character.</code>
-</p>
+![](/img/string-quotes-error.png)
 
-<p>Try it. Type the following into your console:</p>
+You get an error. Why?
 
-<p>
-<code>var testString = "\"He could not find his keys,\" the inspector said."</code>
-</p>
+You'll recall that strings in a variable have to be contained within either `'Single Quotes'` or `"Double Quotes"`. The problem occurs when a `"Double Quotes"` string itself contains a quotation. Or a `'Single Quotes'` string has a contraction that uses an apostrophe.
 
-<p>
-<code>
-var testString = 'It\'s time to sleep.';
-</code>
-</p>
-<p>Now the strings work and you see either the quotation or the apostrophe.</p>
-<p>
-<img src="/img/escaping.png">
-</p>
+We get around this situation by using the `\ escape character.`
 
-<h3>Exercise Two (10 minutes)</h3>
-<p>Create variables for each of the following (Those are quote marks):</p>
-<ul>
-<li>"It's been</li>
-<li>a hard days night</li>
-<li>and I've been working like a dog."</li>
-</ul>
-<p>
-Now create a variable that combines previous variables to create a complete sentence. 
-</p>
-<p span="font-size: 5px;">HINT: strings can be added together.</p>
-<p>Create variables for the following:</p>
-<ul>
-<li>The numeral 5 as a number.
-</li>
-<li>The number 4 as a string</li>
-</ul>
-<p>Add the two variables together. What do you get?</p>
-<p>Flip the order of adding them together. What do you get?</p>
-<p><img src="/img/mag-glass.jpg">What's happening?</p>
+Try it. Type the following into your console:
 
-<h3>External JavaScript File</h3>
+`var testString = "\"He could not find his keys,\" the inspector said."`
 
-<p>As your JavaScript code gets more involved and longer, it will clutter up your HTML file (and slow its response time).</p>
-<p>Or you have several HTML files that require the same JavaScript. You don't want to same JavaScript repeated across many files. It's a pain to fix one error (let alone many errors) across numberous files. </p>
+`var testString = 'It\'s time to sleep.';`
 
-<p>It's good practice to place your JavaScript into an external file -- just like you've been placing your CSS into an external stylesheet for several reasons. </p>
+Now the strings work and you see either the quotation or the apostrophe.
 
-<ul>
-	<li>
-		All HTML pages across a website can call the same JavaScript located in one external page.
-	</li>
-	<li>
-		Keeps your HTML free of code, making it reasier to read.
-	</li>
-	<li>
-		Keeps your JavaScript free of HTML, making it easier to read.
-	</li>
-	<li>
-		A browser will cache that JavaScript file, speeding up load time on each HTML page.
-	</li>
+![](/img/escaping.png)
 
+### Exercise Two (10 minutes)
 
-</ul>
+Create variables for each of the following (Those are quote marks):
+
+- "It's been
+- a hard days night
+- and I've been working like a dog."
+
+Now create a variable that combines previous variables to create a complete sentence.
+
+HINT: strings can be added together.
+
+Create variables for the following:
+
+- The numeral 5 as a number.
+- The number 4 as a string
+
+Add the two variables together. What do you get?
+
+Flip the order of adding them together. What do you get?
+
+![](/img/mag-glass.jpg)What's happening?
+
 <br>
-<p><strong>[Social J students - ignore Command Line instructions]</strong> Let's use Command Line to create a JavaScript file.</p>
-<ol type="1">
-	<li>
-		Make a new directory call my-first-js using <code>mkdir</code>.
-	</li>
-	<li>
-		Navigate into your directory (or folder) using <code>cd</code>.
 
-	</li>
-	<li>
-		Create three different files at one time using <code>touch index.html page2.html myjavascript.js mystylesheet.css</code>. 
-	</li>
-	<li>
-		Open all the files at one time using <code>subl .</code> and all should appear.
-	</li>
-	<li>
-		In the <code>index.html</code> file, add the basic HTML that all HTML files require.
-	</li>
-	<li>
-		In <code>index.html</code> add <code>&lt;p&gt;Content I typed into page 1.&lt;/p&gt;</code> with the opening and closing <code>body</code> tags.
-	</li>
+### Homework
 
-	<li>
-		In <code>page2.html</code> add <code>&lt;p&gt;Content I typed into page 2.&lt;/p&gt;</code> with the opening and closing <code>body</code> tags.
-	</li>
-	<li>In both the HTML files, add the following into the <code>head</code>: <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</code></li>
-	<li>
-		In the <code>myjavascript.js</code> file, type <code>document.write("Content created using JavaScript");</code>
-	</li>
-	<li>After saving all files, open them in your browser.</li>
+Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
 
-</ol>
+- Declare two numberic variables.
+- Add them together using a JavaScript operator.
+- Multiply them together using a JavaScript operator.
+- Divide one by the other using a JavaScript operator.
+- Subtract one from the other using a JavaScript operator.
+- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
+- You must use `document.getElementById().innerHTML`
+- Do NOT use `document.write`.
+- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
 
-<p>What do you see?</p>
-<p>Here's what you should see:</p>
-<p>
-	<img src="/img/external-js.png">
-</p>
-<p>
-Move the <code>&lt;script type=&quot;text/javascript&quot; src=&quot;myjavascript.js&quot;&gt;&lt;/script&gt;</script></code> out of the <code>head</code> and place right before the  <code>&lt;/body&gt;</code> tag.
-</p>
+**Due: Monday, Feb. 15 by Noon on your github account**. Share the URL on Slack (your instructor will tell you which channel.
 
-<p>What happens?</p>
+# Review Homework
 
-<p>Going forward, ALWAYS place the link to your <code>.js</code> file right before the <code>&lt;/body&gt;</code> tag. This allows the page to be rendered first before the JavaScript is applied to it. Another reason to do this is that the more JavaScript you have in the <code>head</code>, the slower the page will load.</p>
+Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
 
-<h3>Exercise Three (15 minutes)</h3>
+- Declare two numberic variables.
+- Add them together using a JavaScript operator.
+- Multiply them together using a JavaScript operator.
+- Divide one by the other using a JavaScript operator.
+- Subtract one from the other using a JavaScript operator.
+- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
+- You must use `document.getElementById().innerHTML`
+- Do NOT use `document.write`.
+- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
 
-<p>Recreate the webpage you produced in Exercise One but this time using an external JavaScript file. There should be NO content in <code>index.html</code> file beyond the barebones required HTML and link to the external JavaScript file. </p>
-<p>Do NOT use <code>document.write</code> instead use <code>document.getElementById().innerHTML = "something here";</code>.</p>
+# JavaScript Lesson 2: Interactivity
 
-	
+A web page can react or change according to user inputs and clicks. Let's explore one of the most common forms of interactivity--the button.
 
-<h3>Homework</h3>
+In order to create interacvity with a button, we need to know three things:
 
-<p>Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish: </p>
+- Creating a button with the HTML button tag.
+- Making JavaScript recognize an event, with with the "`onclick`" event handler .
+- Telling that button what to do with a JavaScript function.
 
-<ul>
-	<li>Declare two numberic variables.</li>
-	<li>Add them together using a JavaScript operator.</li>
-	<li>Multiply them together using a JavaScript operator.</li>
-	<li>Divide one by the other using a JavaScript operator.</li>
-	<li>Subtract one from the other using a JavaScript operator.</li>
-	<li>Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable." </li>
-	<li>You must use <code>document.getElementById().innerHTML</code></li>
-	<li>Do NOT use <code>document.write</code>.</li>
-	<li>Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.</li>
-</ul>
+## The Button
 
-<p> <strong>Due: Monday, Feb. 15 by Noon on your github account</strong>. Share the URL on Slack (your instructor will tell you which channel.</p>
+You can create a simple HTML button by typing: `<button type="button">Do Something!</button>`
 
+You can [style this button](http://www.sitepoint.com/build-a-better-button-in-css3/) using CSS or use a [button generator](http://css3buttongenerator.com/). We're not covering that today.
 
+You might give the button a class or an Id so you can control them later using JavaScript. It should look like: `<button type="button" "class="someClass" id="someId">Do Something Else!</button>`
 
+So now you have two buttons but they don't do anything
+
+## onclick
+
+`onclick` is an HTML event that JavaScript recognizes. Adding the following into your button tag is the first step in making it interactive: `onclick="someCommand()"` where someCommand will be a series of instructions we provide using JavaScript. The word someCommand is a placeholder I just created. It could have been someDog() or even someCat().
+
+### alert()
+
+We'll use the window `alert()` method to see if a command we are giving is actually coming through. You'll quickly realize how useful these alerts are to debugging your code.
+
+In your first button tag, add: `onclick="alert('Hello, my button works!')"`
+
+![](/img/mag-glass.jpg)
+
+Note that if you start with a double quote, you must have a single quote inside the alert() and vice versa.
+
+Add an alert with a different message into your second button.
+
+## Functions
+
+Now we come to one of the real strengths of just about any programming language - the **Function**. Let's actually just put a function to work before I even define it. Inside your button tag, add `onclick='myAlert()'`. In an external JavaScript file, add the following:
+
+![](/img/js1.png)
+
+What happens when you click on button 1?
+
+Let's go one step further before explaining functions. Make a copy of your current html file and save it as `button3.html`.
+
+Create a placeholder div with the `id="test"` in your new html file.
+
+In your button tag, remove the alert and replace with `onclick='fillText()'`. Again, I could have named it almost anything from `runDog()` to `sleepCat()`.
+
+It should look like this:
+
+![](/img/button3.png)
+
+Then type the following into your js file:
+
+![](/img/function1.png)
+
+What happens when you click on the button....you get some intactivity!
+
+### Defining Functions
+
+A functions is:
+
+- a little block of script (one line or many) that performs specific task or a series of tasks.
+- reusable.
+- performed when something "invokes" or "calls" it.
+- ideally modular--that is, it performs a narrow task so you can run several functions to perform more complex tasks.
+
+![](/img/define-function.png)
+
+### Naming Functions
+
+All the same rules as naming variables apply.
+
+Again the idea is to give meaningful names to functions-- name them for what they do. Apart from that, here are some basic rules:
+
+- They ARE case sensitive.
+- Cannot begin with numbers.
+- No spaces between words, instead use underscores, hypens or camelCase.
+- Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
+
+### Calling or Invoking a Function
+
+When you call or invoke a function, you trigger it to run and complete its task. You've already called a function in your button. You call a function by typing `myFunctionName();`.
+
+## Exercise 1 (20 minutes)
+
+In Sublime, take your work from last week's [Exercise One](https://github.com/sandeepmj/JavaScript-lesson-1#exercise-one-15-minutes) and trigger the change in style at the click of a button.
+
+## User Inputs
+
+You can integrate information your audience provides into your interactive. Use HTML form inputs to ask for information. Then use JavaScript to capture and process it before returning altering your page.
+
+Let's first build the form:
+
+![](/img/form.png)
+
+Then we need to create a function to capture and process that information.
+
+We'll use the `.value` method to grab the value of a variable.
+
+![](/img/rentFunction.png)
+
+### Exercise Two (25 minutes)
+
+Take your homework exercise and update it by asking your audience to provide the two numbers that are then calculated for addition, subtraction, division and multiplication. Display the results only after someone clicks a submit button.
+
+## Comparison Operators
+
+JavaScript allows us to make comparison which then allows us to take an action. For example, if a user is paying more than 35 percent of his or her income on rent, we can tell them they are overpaying.
+
+You've seen some of these operators before:
+
+- `5 > 3` or 5 is greater than 3.
+- `4 < 8` or 4 is less than 8.
+
+Where it gets a little stanger is for **equal** and **not equal**. Because we use `=` to assign value to a variable, we have to use `==` to denote equality and `!=` for inequality
+
+Here's a [complete list of comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
+
+### Logical Operators
+
+Logical Operators simply allow you to compare relationships or logic between various variables-- like **and** and **or**. The logic for "and" is written as `&&` and the logic for "or" is written as `||`. Here's a [full list of logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Logical_operators).
+
+![](/img/comparison.png)
+
+### So What?
+
+At this point you might be wondering, so what?
+
+Here's what:
+
+Imagine writing a function that does different things based on user input. For example, **`if`** someone someone's rent to income is greater than 35 percent your function can tell them they are overpaying, **`else` your function tells them they are paying the right amount.**
+
+I created a `form2.html` that is exactly the same except I'm pointing it to `main2.js`
+
+`main2.js` should look like this:
+
+![](/img/compjs.png)
+
+## Homework
+
+Using JavaScript learned over the past two weeks, create a simple calculator to inform your audience whether they should buy a monthly MetroCard or a per ride MetroCard based on how many times they ride the subway per month.
+
+**Due: Monday, Feb. 22 by Noon on your github account**. Share the URL on Slack (your instructor will tell you which channel.
