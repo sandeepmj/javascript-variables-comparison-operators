@@ -117,7 +117,7 @@ You get the same results but you won't be confused by these variables later as y
 
 ### Global v. Local
 
-EXPLAIN GLOBAL SCOPE V. LOCAL SCOPE
+More on this later.
 
 ### Escaping Special Characters
 
@@ -190,7 +190,7 @@ Create a Web page on which information is dynamically added from an external Jav
 
 Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
 
-- Declare two numberic variables.
+- Declare two numeric variables.
 - Add them together using a JavaScript operator.
 - Multiply them together using a JavaScript operator.
 - Divide one by the other using a JavaScript operator.
@@ -221,20 +221,14 @@ Logical Operators simply allow you to compare relationships or logic between var
 
 ### So What?
 
-At this point you might be wondering, so what?
+At this point you might be wondering, yeah so what?
 
 Here's what:
 
-Imagine writing a function that does different things based on user input. For example, **`if`** someone someone's rent to income is greater than 35 percent your function can tell them they are overpaying, **`else` your function tells them they are paying the right amount.**
-
-I created a `form2.html` that is exactly the same except I'm pointing it to `main2.js`
-
-`main2.js` should look like this:
+Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else` your function tells them they are paying the right amount.**
 
 ![](/img/compjs.png)
 
 ## Homework
-
-Using JavaScript learned over the past two weeks, create a simple calculator to inform your audience whether they should buy a monthly MetroCard or a per ride MetroCard based on how many times they ride the subway per month.
 
 **Due: Monday, Feb. 22 by Noon on your github account**. Share the URL on Slack (your instructor will tell you which channel.
