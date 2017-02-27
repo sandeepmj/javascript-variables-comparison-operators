@@ -22,11 +22,11 @@ Variables are placeholders for values.They can be any of the following:
 
 - **Numbers**.
 - **Strings**, that are made up of letter, words, sentences, etc.
-- **Placeholders** that receives its value based on computation or concatenation of other variables.
-- **Boolean** values, which can only be `true` or `false`.
-- **Arrays** that holds a multiple values in one variable.
-- **Objects**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
-- **Functions** that you can call in one or more places in your code.
+- **Placeholders**, that receives its value based on computation or concatenation of other variables.
+- **Boolean**, values, which can only be `true` or `false`.
+- **Arrays**, that holds a multiple values in one variable.
+- **Objects**, which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
+- **Functions**, that you can call in one or more places in your code.
 
 ## Variables at Work.
 
