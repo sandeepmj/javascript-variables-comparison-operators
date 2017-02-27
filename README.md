@@ -22,10 +22,11 @@ Variables are placeholders for values.They can be any of the following:
 
 - **Numbers**.
 - **Strings**, that are made up of letter, words, sentences, etc.
-- A **placeholder** that receives its value based on computation or concatenation of other variables.
-- A **Boolean** value, which can only be `true` or `false`.
-- An **Array** that holds a multiple values in one variable.
-- An **Object**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
+- **Placeholders** that receives its value based on computation or concatenation of other variables.
+- **Boolean** values, which can only be `true` or `false`.
+- **Arrays** that holds a multiple values in one variable.
+- **Objects**...which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
+- **Functions** that you can call in one or more places in your code.
 
 ## Variables at Work.
 
@@ -71,6 +72,7 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 
 - They ARE case sensitive.
 - Cannot begin with numbers.
+- Make them unique (just like IDs, you should only have ONE variable with a particular name).
 - No spaces between words, instead use underscores, hyphens or camelCase (`var myCamelCaseExample`).
 - Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
 - Think of code as story. Each variable is like a character/actor. Naming each in a relevant way such makes the narrative (the code) easier to follow.
