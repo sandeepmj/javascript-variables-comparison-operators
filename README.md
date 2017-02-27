@@ -1,8 +1,6 @@
-#
+# JavaScript: Foundation for Logic and Comparisons
 
-# JavaScript: Variables
-
-We now move away from using coding to simply add interactivity to a website. We harness it's ability to calculate and to compare -- all foundations for programming logic.
+We now move away from using coding to simply add interactivity to a website. Instead, we harness JavaScript's ability to calculate and to compare -- all foundations for programming logic.
 
 ## Hello JavaScript Console
 
@@ -16,16 +14,9 @@ Let's do some simple math:
 
 ![](/img/basicmath.png)
 
-### Make JavaScript Easier to Read
+But using JavaScript as a calculator is not the goal. Instead we want a way to hold numbers and other information that we can manipulate on the fly.
 
-- Commenting - You're going to forget what various parts of your code are supposed to do. Leave a comment as a reminder or as a quick clarification for anyone you might collaborate with. You comment in JavaScript with two slashes `// Comment here` usually at the end of the line of code.
-- White Space - JavaScript doesn't care about white space. Use it to make it easier to read your code.
-- Line Length - The longer the line of code gets, the harder it is to read and evaluate. Try to keep a line less than 80 characters long.
-- Line Break - If the line of code must be longer than 80 characters, break it onto a new line after an operator (+ , - , * , / , etc.)
-
-### Exercise One (15 minutes)
-
-????????
+## Variables
 
 Variables are placeholders for values.They can be any of the following:
 
@@ -80,8 +71,11 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 
 - They ARE case sensitive.
 - Cannot begin with numbers.
-- No spaces between words, instead use underscores, hypens or camelCase.
+- No spaces between words, instead use underscores, hyphens or camelCase (`var myCamelCaseExample`).
 - Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
+- Think of code as story. Each variable is like a character/actor. Naming each in a relevant way such makes the narrative (the code) easier to follow.
+- Keep the variables short but make sure they make sense.
+- Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
 
 <br>
 
