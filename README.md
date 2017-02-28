@@ -1,4 +1,4 @@
-# JavaScript: Foundation for Logic and Comparisons
+# JavaScript: Foundation for Logic Using Math, Variables and Comparisons
 
 We now move away from using coding to simply add interactivity to a website. Instead, we harness JavaScript's ability to calculate and to compare -- all foundations for programming logic.
 
