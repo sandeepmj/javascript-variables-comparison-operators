@@ -128,7 +128,7 @@ You get the same results but you won't be confused by these variables later as y
 
 ### Exercise Two (10 minutes)
 
-Create three variables that hold _real world numbers_ (cost of groceries, transportation tickets, etc) do a _real world_ mathematical operation on them.
+Create three variables that hold _real world_ numbers (cost of groceries, transportation tickets, etc) do a _real world_ mathematical operation on them.
 
 ### Global v. Local
 
@@ -206,6 +206,18 @@ Here's what:
 Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** it tells them they are paying the right amount.
 
 JavaScript actually has powerful **`if`** **`else`** conditional statements for such purposes.
+
+### Arrays
+
+Often you'll want one variable to hold multiple values. Yes, that's possible!
+
+For example, let's say you are building an interactive that explores the impact of massive budget cuts on a number of U.S. government agencies. Instead of creating a variable for each agency, we can place them all in an `Array`.
+
+You declare arrays the same way using `var =` but then use place values in quotes within square brackets.
+
+`var agenciesCuts = ['EPA', "NEA", 'State Dept.', 'DOJ - Civil Rights Division', " Consumer Protection Agency"];`
+
+You retrieve values by typing `agenciesCuts[indexNumber]`
 
 ### Homework
 
