@@ -145,6 +145,12 @@ Now the strings work and you see either the quotation or the apostrophe.
 
 ![](/img/escaping.png)
 
+### Concatenation
+
+The plus sign `+` joins two string variables together.
+
+Remember
+
 ### Exercise Two (10 minutes)
 
 Using a Create variables for each of the following (Those are quote marks):
@@ -183,8 +189,6 @@ Create a Web page on which information is dynamically added from an external Jav
 - You must use `document.getElementById().innerHTML`
 - Do NOT use `document.write`.
 - Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
-
-**Due: Monday, Feb. 15 by Noon on your github account**. Share the URL on Slack (your instructor will tell you which channel.
 
 # Review Homework
 
