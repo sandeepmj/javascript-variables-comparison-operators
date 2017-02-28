@@ -25,8 +25,8 @@ Variables are placeholders for values.They can be any of the following:
 - **Placeholders**, that receives its value based on computation or concatenation of other variables.
 - **Boolean**, values, which can only be `true` or `false`.
 - **Arrays**, that holds a multiple values in one variable.
-- **Objects**, which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
-- **Functions**, that you can call in one or more places in your code.
+- **Objects**, which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious (more on this at some point this semester!).
+- **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
 
 ## Variables at Work
 
@@ -65,10 +65,10 @@ Flip the order of adding them together. What do you get?
 
 ## How Might We Use Variables in Journalistic Interactives?
 
-- Compare user input/selection against existing data.
-- Store large amounts of organized information and pull out key info based on user interaction.
-- Take a user input, run it through a formula and store the result to be used later.
-- Compare the information stored in variables.
+- Compare user input/selection against existing data. (<http://nicolelewis.co/news_app/>)
+- Store large amounts of organized information and pull out key info based on user interaction. (<http://hateindex.com>) | (<http://graphics.wsj.com/childcost/>)
+- Take user input, run it through a formula and store the result to be used later. (<https://www.nytimes.com/interactive/2014/02/09/opinion/minimum-wage.html>)
+- Compare the information stored in variables. (<https://www.theguardian.com/us-news/ng-interactive/2014/nov/06/-sp-congress-diversity-women-race-lgbt-are-you-represented>)
 
 ### Why use Variables?
 
