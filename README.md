@@ -50,6 +50,19 @@ You should get -100.
 
 ![](/img/variables.png)
 
+### Exercise One (a few minutes)
+
+Create variables for the following:
+
+- The numeral 5 as a number.
+- The number 4 as a string
+
+Add the two variables together. What do you get?
+
+Flip the order of adding them together. What do you get?
+
+![](/img/mag-glass.jpg)What's happening?
+
 ## How Might We Use Variables in Journalistic Interactives?
 
 - Compare user input/selection against existing data.
@@ -115,6 +128,10 @@ You get the same results but you won't be confused by these variables later as y
 
 ![](/img/monthly.png)
 
+### Exercise Two (10 minutes)
+
+Create three variables that hold _real world numbers_ (cost of groceries, transportation tickets, etc) do a _real world_ mathematical operation on them.
+
 ### Global v. Local
 
 More on this later.
@@ -149,11 +166,11 @@ Now the strings work and you see either the quotation or the apostrophe.
 
 The plus sign `+` joins two string variables together.
 
-Remember
+Remember, if you put a `+` between two variables that hold numbers, it will add the two numbers together.
 
-### Exercise Two (10 minutes)
+### Exercise Three (10 minutes)
 
-Using a Create variables for each of the following (Those are quote marks):
+Create variables for each of the following (Those are quote marks):
 
 - "It's been
 - a hard days night
@@ -163,46 +180,7 @@ Now create a variable that combines previous variables to create a complete sent
 
 HINT: strings can be added together.
 
-Create variables for the following:
-
-- The numeral 5 as a number.
-- The number 4 as a string
-
-Add the two variables together. What do you get?
-
-Flip the order of adding them together. What do you get?
-
-![](/img/mag-glass.jpg)What's happening?
-
 <br>
-
-### Homework
-
-Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
-
-- Declare two numberic variables.
-- Add them together using a JavaScript operator.
-- Multiply them together using a JavaScript operator.
-- Divide one by the other using a JavaScript operator.
-- Subtract one from the other using a JavaScript operator.
-- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
-- You must use `document.getElementById().innerHTML`
-- Do NOT use `document.write`.
-- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
-
-# Review Homework
-
-Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
-
-- Declare two numeric variables.
-- Add them together using a JavaScript operator.
-- Multiply them together using a JavaScript operator.
-- Divide one by the other using a JavaScript operator.
-- Subtract one from the other using a JavaScript operator.
-- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
-- You must use `document.getElementById().innerHTML`
-- Do NOT use `document.write`.
-- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
 
 ## Comparison Operators
 
@@ -229,8 +207,21 @@ At this point you might be wondering, yeah so what?
 
 Here's what:
 
-Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** your function tells them they are paying the right amount. **`if`** **`else`** .
+Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** it tells them they are paying the right amount.
 
-## Homework
+JavaScript actually has powerful **`if`** **`else`** conditional statements for such purposes.
 
-**Due: Monday, Feb. 22 by Noon on your github account**. Share the URL on Slack (your instructor will tell you which channel.
+### Homework
+
+Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
+
+- Declare two numeric variables.
+- Add them together using a JavaScript operator.
+- Multiply them together using a JavaScript operator.
+- Divide one by the other using a JavaScript operator.
+- Subtract one from the other using a JavaScript operator.
+- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
+- You must use Functions and Jquery to make the sentence appear on a web page.
+- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
+
+**Due: Tuesday 5pm in a .js file.
