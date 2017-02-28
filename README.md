@@ -28,7 +28,7 @@ Variables are placeholders for values.They can be any of the following:
 - **Objects**, which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious.
 - **Functions**, that you can call in one or more places in your code.
 
-## Variables at Work.
+## Variables at Work
 
 Back in the console, type `var x = 1000;` and hit enter.
 
@@ -76,8 +76,6 @@ Flip the order of adding them together. What do you get?
 - **Reusability** - you can use the same variable in different places in your code.
 - **Time saver** - you can change its value in one place and the new value is called on throughout your code
 - **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
-
-<br>
 
 ### Naming Variables
 
@@ -170,7 +168,7 @@ Remember, if you put a `+` between two variables that hold numbers, it will add 
 
 ### Exercise Three (10 minutes)
 
-Create variables for each of the following (Those are quote marks):
+Create variables for each of the following lines (those are quote marks):
 
 - "It's been
 - a hard days night
@@ -179,8 +177,6 @@ Create variables for each of the following (Those are quote marks):
 Now create a variable that combines previous variables to create a complete sentence.
 
 HINT: strings can be added together.
-
-<br>
 
 ## Comparison Operators
 
