@@ -147,7 +147,7 @@ Now the strings work and you see either the quotation or the apostrophe.
 
 ### Exercise Two (10 minutes)
 
-Create variables for each of the following (Those are quote marks):
+Using a Create variables for each of the following (Those are quote marks):
 
 - "It's been
 - a hard days night
@@ -225,9 +225,7 @@ At this point you might be wondering, yeah so what?
 
 Here's what:
 
-Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else` your function tells them they are paying the right amount.**
-
-![](/img/compjs.png)
+Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** your function tells them they are paying the right amount. **`if`** **`else`** .
 
 ## Homework
 
