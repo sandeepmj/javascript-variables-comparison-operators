@@ -223,13 +223,24 @@ You retrieve values by typing `agenciesCuts[indexNumber]`
 
 Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
 
-- Declare two numeric variables.
-- Add them together using a JavaScript operator.
-- Multiply them together using a JavaScript operator.
-- Divide one by the other using a JavaScript operator.
-- Subtract one from the other using a JavaScript operator.
-- Create separate sentences for each mathematical operation that provides the results. For example, for addition, it should say something like "When I add firstVariable to secondVariable I get thirdVariable."
-- You must use Functions and Jquery to make the sentence appear on a web page.
-- Remember it has to be dynamic so if you change the value of the variables, the webpage should show updated results automatically.
+Create a simple calculator that asks for two numbers. Once the user enters two numbers and hits calculate, the calculator:
 
-**Due: Tuesday 5pm in a .js file.
+- Adds them together.
+- Multiplies them together.
+- Divides one by the other.
+- Subtracts one from the other.
+
+The calculator spits out the result for each mathematical operation in four sentences on separate lines saying:
+
+- "When I add your first number, X, to the second number, Y, I get Z."
+- "When I Multiply your first number, X, by the second number, Y, I get Z."
+- "When I divide your first number, X, by the second number, Y, I get Z."
+- "When I subtract your first number, X, from the second number, Y, I get Z."
+
+Here X and Y are the inputs by the user and Z is the mathematical result.
+
+- You must use form inputs, variables, functions, and jQuery.
+
+- Remember it has to be dynamic so on page reload, new variables can be added the webpage should show updated results automatically.
+
+**Due: Friday 5pm as a link to its GitHub repo.
