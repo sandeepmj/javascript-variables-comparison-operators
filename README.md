@@ -243,4 +243,4 @@ Here X and Y are the inputs by the user and Z is the mathematical result.
 
 - Remember it has to be dynamic so on page reload, new variables can be added the webpage should show updated results automatically.
 
-**Due: Friday 5pm as a link to the appropriate GitHub repo AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
+**Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
