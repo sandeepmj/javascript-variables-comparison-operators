@@ -221,7 +221,7 @@ You retrieve values by typing `agenciesCuts[indexNumber]`
 
 ### Homework
 
-Create a Web page on which information is dynamically added from an external JavaScript file. Here's what you need to accomplish:
+Create a Web page on which information is dynamically added from an external JavaScript file (which means you are NOT manually adding numbers, sums, products, etc. for the results). Here's what you need to accomplish:
 
 Create a simple calculator that asks for two numbers. Once the user enters two numbers and hits calculate, the calculator:
 
@@ -241,6 +241,16 @@ Here X and Y are the inputs by the user and Z is the mathematical result.
 
 - You must use form inputs, variables, functions, and jQuery.
 
-- Remember it has to be dynamic so on page reload, new variables can be added the webpage should show updated results automatically.
+- Remember it has to be dynamic (you should not have to type the numbers in the results field) so on page reload, new variables can be added the webpage should show updated results automatically.
 
-**Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
+Here's what the calculator might look like before some inputs numbers:
+
+![](/img/pre-calc.png)
+
+Here's what the appears dynamically after you hit the compute button:
+
+![](/img/post-calc.png)
+
+- Don't worry about the rounding up or down on the last sentence.
+
+  **Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
