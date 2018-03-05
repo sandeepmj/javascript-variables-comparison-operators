@@ -195,22 +195,6 @@ Where it gets a little stanger is for **equal** and **not equal**. Because we us
 
 Here's a [complete list of comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
 
-### Logical Operators
-
-Logical Operators simply allow you to compare relationships or logic between various variables-- like **and** and **or**. The logic for "and" is written as `&&` and the logic for "or" is written as `||`. Here's a [full list of logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Logical_operators).
-
-![](/img/comparison.png)
-
-### So What?
-
-At this point you might be wondering, yeah so what?
-
-Here's what:
-
-Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** it tells them they are paying the right amount.
-
-JavaScript actually has powerful **`if`** **`else`** conditional statements for such purposes.
-
 ### Arrays
 
 Often you'll want one variable to hold multiple values. These special variables are called "arrays" and give you great versatility.
@@ -244,6 +228,22 @@ If you expand one of the triangles you can see the index position:
 ![](/img/menu-expanded.png)
 
 We aren't likely do much more with objects this semester. They are incredibly powerful and you will hear people (TC) talk about JavaScript being an object-oriented language.
+
+### Logical Operators
+
+Logical Operators simply allow you to compare relationships or logic between various variables-- like **and** and **or**. The logic for "and" is written as `&&` and the logic for "or" is written as `||`. Here's a [full list of logical operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Logical_operators).
+
+![](/img/comparison.png)
+
+### So What?
+
+At this point you might be wondering, yeah so what?
+
+Here's what:
+
+Imagine an interactive that does different things based on user input. For example, **`if`** someone someone's monthly rent is more than 35 percent of their monthly income, the interactive tells them they are overpaying, **`else`** it tells them they are paying the right amount.
+
+JavaScript actually has powerful **`if`** **`else`** conditional statements for such purposes.
 
 ### Homework
 
