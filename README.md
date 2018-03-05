@@ -182,19 +182,6 @@ Now create a variable that combines previous variables to create a complete sent
 
 HINT: strings can be added together.
 
-## Comparison Operators
-
-JavaScript allows us to make comparison which then allows us to take an action. For example, if a user is paying more than 35 percent of his or her income on rent, we can tell them they are overpaying.
-
-You've seen some of these operators before:
-
--   `5 > 3` or 5 is greater than 3.
--   `4 < 8` or 4 is less than 8.
-
-Where it gets a little stanger is for **equal** and **not equal**. Because we use `=` to assign value to a variable, we have to use `==` to denote equality and `!=` for inequality
-
-Here's a [complete list of comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
-
 ### Arrays
 
 Often you'll want one variable to hold multiple values. These special variables are called "arrays" and give you great versatility.
@@ -228,6 +215,19 @@ If you expand one of the triangles you can see the index position:
 ![](/img/menu-expanded.png)
 
 We aren't likely do much more with objects this semester. They are incredibly powerful and you will hear people (TC) talk about JavaScript being an object-oriented language.
+
+## Comparison Operators
+
+JavaScript allows us to make comparison which then allows us to take an action. For example, if a user is paying more than 35 percent of his or her income on rent, we can tell them they are overpaying.
+
+You've seen some of these operators before:
+
+-   `5 > 3` or 5 is greater than 3.
+-   `4 < 8` or 4 is less than 8.
+
+Where it gets a little stanger is for **equal** and **not equal**. Because we use `=` to assign value to a variable, we have to use `==` to denote equality and `!=` for inequality
+
+Here's a [complete list of comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Comparison_operators)
 
 ### Logical Operators
 
