@@ -14,6 +14,10 @@ Let's do some simple math:
 
 ![](/img/basicmath.png)
 
+You can also group:
+
+![](/img/grouping.png)
+
 But using JavaScript as a calculator is not the goal. Instead we want a way to hold numbers and other information that we can manipulate on the fly.
 
 ## Variables
