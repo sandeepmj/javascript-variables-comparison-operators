@@ -27,9 +27,8 @@ Variables are placeholders for values.They can be any of the following:
 -   **Numbers**.
 -   **Strings**, that are made up of letter, words, sentences, etc.
 -   **Placeholders**, that receives its value based on computation or concatenation of other variables.
--   **Boolean**, values, which can only be `true` or `false`.
 -   **Arrays**, that holds a multiple values in one variable.
--   **Objects**, variables that hold interrelated data or info.
+-   **Objects**, variables that hold interrelated data or info. (more on this at some point this semester!).
 -   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
 
 ## Variables at Work
@@ -214,7 +213,7 @@ If you expand one of the triangles you can see the index position:
 
 ![](/img/menu-expanded.png)
 
-We aren't likely do much more with objects this semester. They are incredibly powerful and you will hear people (TC) talk about JavaScript being an object-oriented language.
+We aren't likely do much more with objects this semester, but are incredibly powerful, flexible and complex. Objects are what make JavaScript an "object-oriented" language.
 
 ## Comparison Operators
 
@@ -246,5 +245,11 @@ Imagine an interactive that does different things based on user input. For examp
 JavaScript actually has powerful **`if`** **`else`** conditional statements for such purposes.
 
 ### Homework
+
+Declare the variables that you might use to create an interactive about the following **made up** situation:
+
+A refugee enters how many members are in their family. Based on that number, you tell them how much money they will receive as assistance based on the following: Each family member is given a one-time grant of $1,000  in 2018. Refugee families arriving in 2019 might get more or less depending on the State Department funding priorities. You need to know if the head of household speaks English. The refugee (and their family members) will be settled in the New York City where there are 5 NGOs that might help them. The five NGOs are "Help Unlimited", "New Start", "Better Tomorrow", "Home Safe" and "New Home". The monthly estimated expenses are as follows. Just one person will be $800. A couple will be $950; A family of three will be $1000. A family of four will be $1100. A family of five and above will be a fixed $1200.  
+
+Create a .js file and declare relevant variables.
 
   \*\*Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
