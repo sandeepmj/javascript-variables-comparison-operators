@@ -24,13 +24,13 @@ But using JavaScript as a calculator is not the goal. Instead we want a way to h
 
 Variables are placeholders for values.They can be any of the following:
 
-- **Numbers**.
-- **Strings**, that are made up of letter, words, sentences, etc.
-- **Placeholders**, that receives its value based on computation or concatenation of other variables.
-- **Boolean**, values, which can only be `true` or `false`.
-- **Arrays**, that holds a multiple values in one variable.
-- **Objects**, which I won't even define here, but [you can look it up](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) if you are curious (more on this at some point this semester!).
-- **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
+-   **Numbers**.
+-   **Strings**, that are made up of letter, words, sentences, etc.
+-   **Placeholders**, that receives its value based on computation or concatenation of other variables.
+-   **Boolean**, values, which can only be `true` or `false`.
+-   **Arrays**, that holds a multiple values in one variable.
+-   **Objects**, variables that hold interrelated data or info.
+-   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
 
 ## Variables at Work
 
@@ -58,8 +58,8 @@ You should get -100.
 
 Create variables for the following:
 
-- The numeral 5 as a number.
-- The number 4 as a string
+-   The numeral 5 as a number.
+-   The number 4 as a string
 
 Add the two variables together. What do you get?
 
@@ -69,50 +69,50 @@ Flip the order of adding them together. What do you get?
 
 ## How Might We Use Variables in Journalistic Interactives?
 
-- Compare user input/selection against existing data. (<http://nicolelewis.co/news_app/>)
-- Store large amounts of organized information and pull out key info based on user interaction. (<http://hateindex.com>) | (<http://graphics.wsj.com/childcost/>)
-- Take user input, run it through a formula and store the result to be used later. (<https://www.nytimes.com/interactive/2014/02/09/opinion/minimum-wage.html>)
-- Compare the information stored in variables. (<https://www.theguardian.com/us-news/ng-interactive/2014/nov/06/-sp-congress-diversity-women-race-lgbt-are-you-represented>)
+-   Compare user input/selection against existing data. (<http://nicolelewis.co/news_app/>)
+-   Store large amounts of organized information and pull out key info based on user interaction. (<http://hateindex.com>) | (<http://graphics.wsj.com/childcost/>)
+-   Take user input, run it through a formula and store the result to be used later. (<https://www.nytimes.com/interactive/2014/02/09/opinion/minimum-wage.html>)
+-   Compare the information stored in variables. (<https://www.theguardian.com/us-news/ng-interactive/2014/nov/06/-sp-congress-diversity-women-race-lgbt-are-you-represented>)
 
 ### Why use Variables?
 
-- **Clarity** - you can assign meaningful names to variables.
-- **Reusability** - you can use the same variable in different places in your code.
-- **Time saver** - you can change its value in one place and the new value is called on throughout your code
-- **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
+-   **Clarity** - you can assign meaningful names to variables.
+-   **Reusability** - you can use the same variable in different places in your code.
+-   **Time saver** - you can change its value in one place and the new value is called on throughout your code
+-   **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
 
 ### Naming Variables
 
 The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules:
 
-- They ARE case sensitive.
-- Cannot begin with numbers.
-- Make them unique (just like IDs, you should only have ONE variable with a particular name).
-- No spaces between words, instead use underscores, hyphens or camelCase (`var myCamelCaseExample`).
-- Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
-- Think of code as story. Each variable is like a character/actor. Naming each in a relevant way such makes the narrative (the code) easier to follow.
-- Keep the variables short but make sure they make sense.
-- Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
+-   They ARE case sensitive.
+-   Cannot begin with numbers.
+-   Make them unique (just like IDs, you should only have ONE variable with a particular name).
+-   No spaces between words, instead use underscores, hyphens or camelCase (`var myCamelCaseExample`).
+-   Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
+-   Think of code as story. Each variable is like a character/actor. Naming each in a relevant way such makes the narrative (the code) easier to follow.
+-   Keep the variables short but make sure they make sense.
+-   Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
 
 ### Declaring a Variable
 
-- For a number, you simply type `var someNumberDog = 123;`
+-   For a number, you simply type `var someNumberDog = 123;`
 
-- For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
+-   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
 
 ![](/img/mag-glass.jpg)
 
 What's the difference between naming a variable that holds a number and a string?
 
-- Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
+-   Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
 
-- You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `var somePlaceholderDogName;` to declare a variable with no value.
+-   You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `var somePlaceholderDogName;` to declare a variable with no value.
 
 For example:
 
 ![](/img/monthly-declaration.png)
 
-- You can also declare a variable and assign a value based on a computation at one time:
+-   You can also declare a variable and assign a value based on a computation at one time:
 
 ![](/img/monthly-after-declaration.png)
 
@@ -174,9 +174,9 @@ Remember, if you put a `+` between two variables that hold numbers, it will add 
 
 Create variables for each of the following lines (those are quote marks):
 
-- "It's been
-- a hard days night
-- and I've been working like a dog."
+-   "It's been
+-   a hard days night
+-   and I've been working like a dog."
 
 Now create a variable that combines previous variables to create a complete sentence.
 
@@ -188,8 +188,8 @@ JavaScript allows us to make comparison which then allows us to take an action. 
 
 You've seen some of these operators before:
 
-- `5 > 3` or 5 is greater than 3.
-- `4 < 8` or 4 is less than 8.
+-   `5 > 3` or 5 is greater than 3.
+-   `4 < 8` or 4 is less than 8.
 
 Where it gets a little stanger is for **equal** and **not equal**. Because we use `=` to assign value to a variable, we have to use `==` to denote equality and `!=` for inequality
 
@@ -213,7 +213,17 @@ JavaScript actually has powerful **`if`** **`else`** conditional statements for 
 
 ### Arrays
 
-Often you'll want one variable to hold multiple values. Yes, that's possible!
+Often you'll want one variable to hold multiple values. These special variables are called "arrays" and give you great versatility.
+
+Let's try this simple array. We give the array a name and some values. We can use the **`.length`** method to see how many values are in the array.
+
+![](/img/arrayintro.png)
+
+You can even add more values to an array using the  **`.push()`** method
+
+![](/img/arraypush.png)
+
+Why would you need an array?
 
 For example, let's say you are building an interactive that explores the impact of massive budget cuts on a number of U.S. government agencies. Instead of creating a variable for each agency, we can place them all in an `Array`.
 
@@ -223,38 +233,18 @@ You declare arrays the same way using `var =` but then use place values in quote
 
 You retrieve values by typing `agenciesCuts[indexNumber]`
 
+### Objects
+
+Objects are variables that can hold interrelated data.
+
+![](/img/menu.png)
+
+If you expand one of the triangles you can see the index position:
+
+![](/img/menu-expanded.png)
+
+We aren't likely do much more with objects this semester. They are incredibly powerful and you will hear people (TC) talk about JavaScript being an object-oriented language.
+
 ### Homework
 
-Create a Web page on which information is dynamically added from an external JavaScript file (which means you are NOT manually adding numbers, sums, products, etc. for the results). Here's what you need to accomplish:
-
-Create a simple calculator that asks for two numbers. Once the user enters two numbers and hits calculate, the calculator:
-
-- Adds them together.
-- Multiplies them together.
-- Divides one by the other.
-- Subtracts one from the other.
-
-The calculator spits out the result for each mathematical operation in four sentences on separate lines saying:
-
-- "When I add your first number, X, to the second number, Y, I get Z."
-- "When I Multiply your first number, X, by the second number, Y, I get Z."
-- "When I divide your first number, X, by the second number, Y, I get Z."
-- "When I subtract your first number, X, from the second number, Y, I get Z."
-
-Here X and Y are the inputs by the user and Z is the mathematical result.
-
-- You must use form inputs, variables, functions, and jQuery.
-
-- Remember it has to be dynamic (you should not have to type the numbers in the results field) so on page reload, new variables can be added the webpage should show updated results automatically.
-
-Here's what the calculator might look like before some inputs numbers:
-
-![](/img/pre-calc.png)
-
-Here's what the appears dynamically after you hit the compute button:
-
-![](/img/post-calc.png)
-
-- Don't worry about the rounding up or down on the last sentence.
-
-  **Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
+  \*\*Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
