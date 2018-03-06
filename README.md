@@ -22,11 +22,11 @@ But using JavaScript as a calculator is not the goal. Instead we want a way to h
 
 ## Variables
 
-Variables are placeholders for values.They can be any of the following:
+Variables are placeholders for values. They can be any of the following:
 
--   **Numbers**.
+-   **Numbers**
 -   **Strings**, that are made up of letter, words, sentences, etc.
--   **Placeholders**, that receives its value based on computation or concatenation of other variables.
+-   **Placeholders**, that receive their value based on computation or concatenation of other variables.
 -   **Arrays**, that holds a multiple values in one variable.
 -   **Objects**, variables that hold interrelated data or info. (more on this at some point this semester!).
 -   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
@@ -52,19 +52,6 @@ Type `x - y` into the console.
 You should get -100.
 
 ![](/img/variables.png)
-
-### Exercise One (a few minutes)
-
-Create variables for the following:
-
--   The numeral 5 as a number.
--   The number 4 as a string
-
-Add the two variables together. What do you get?
-
-Flip the order of adding them together. What do you get?
-
-![](/img/mag-glass.jpg)What's happening?
 
 ## How Might We Use Variables in Journalistic Interactives?
 
@@ -98,6 +85,19 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 -   For a number, you simply type `var someNumberDog = 123;`
 
 -   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
+
+### Exercise One (a few minutes)
+
+Create variables for the following:
+
+-   The numeral 5 as a number.
+-   The number 4 as a string
+
+Add the two variables together. What do you get?
+
+Flip the order of adding them together. What do you get?
+
+![](/img/mag-glass.jpg)What's happening?
 
 ![](/img/mag-glass.jpg)
 
