@@ -103,8 +103,6 @@ Flip the order of adding them together. What do you get?
 
 ![](/img/mag-glass.jpg)What's happening?
 
-![](/img/mag-glass.jpg)
-
 What's the difference between naming a variable that holds a number and a string?
 
 -   Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
