@@ -94,6 +94,8 @@ More on this later in the semester.
 
 -   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
 
+-   Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
+
 -   You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `var somePlaceholderDogName;` to declare a variable with no value.
 
 -   Declaring all variables at the start is good practice. In the following example, we create global variables:
@@ -112,10 +114,6 @@ Add the two variables together. What do you get?
 Flip the order of adding them together. What do you get?
 
 ![](/img/mag-glass.jpg)What's happening?
-
-What's the difference between naming a variable that holds a number and a string?
-
--   Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
 
 For example:
 
