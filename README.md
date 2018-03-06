@@ -187,6 +187,8 @@ Often you'll want one variable to hold multiple values. These special variables 
 
 Let's try this simple array. We give the array a name and some values. We can use the **`.length`** method to see how many values are in the array.
 
+You can retrieve values by typing `nameOfArray[indexNumber]` where the index number is the position in the list. In computing, 0 (zero) is always the first position.
+
 ![](/img/arrayintro.png)
 
 You can even add more values to an array using the  **`.push()`** method
