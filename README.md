@@ -131,7 +131,7 @@ You get the same results but you won't be confused by these variables later as y
 
 ### Exercise Two (10 minutes)
 
-Create three variables that hold _real world_ numbers (cost of groceries, transportation tickets, etc) do a _real world_ mathematical operation on them.
+Create three variables that hold _real world_ numbers (cost of groceries, transportation tickets, etc) and do a _real world_ mathematical operation on them in the console.
 
 ### Global v. Local
 
