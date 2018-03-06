@@ -86,6 +86,10 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 
 -   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
 
+-   Declaring all variables at the start is good practice. For example:
+
+![](/img/declarevar.png)
+
 ### Exercise One (a few minutes)
 
 Create variables for the following:
@@ -187,7 +191,7 @@ Often you'll want one variable to hold multiple values. These special variables 
 
 Let's try this simple array. We give the array a name and some values. We can use the **`.length`** method to see how many values are in the array.
 
-You can retrieve values by typing `nameOfArray[indexNumber]` where the index number is the position in the list. In computing, 0 (zero) is always the first position.
+You can retrieve values by typing `nameOfArray[indexNumber]` where the index number is the position in the list. In computing, 0 (zero) is always the first position in an index.
 
 ![](/img/arrayintro.png)
 
