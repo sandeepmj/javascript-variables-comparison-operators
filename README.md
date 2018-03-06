@@ -26,7 +26,7 @@ Variables are placeholders for values. They can be any of the following:
 
 -   **Numbers**
 -   **Strings**, that are made up of letter, words, sentences, etc.
--   **Placeholders**, that receive their value based on computation or concatenation of other variables.
+-   **Placeholders**, that receive their value from inputs, computations or concatenation of other variables.
 -   **Arrays**, that holds a multiple values in one variable.
 -   **Objects**, variables that hold interrelated data or info. (more on this at some point this semester!).
 -   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
@@ -252,4 +252,4 @@ A refugee enters how many members are in their family. Based on that number, you
 
 Create a .js file and declare relevant variables.
 
-  \*\*Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/IpSJk1QhRiF2TrRH3>).
+  \*\*Due: Friday 5pm as a link to a GitHub repo that you have created AND then fill out this form (<https://goo.gl/forms/GhOnnOdqlUReWRou2>).
