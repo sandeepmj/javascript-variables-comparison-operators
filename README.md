@@ -80,13 +80,21 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 -   Keep the variables short but make sure they make sense.
 -   Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
 
+### Global v. Local
+
+-   Local variables only work within the function they are in.
+
+-   Global variables can be used by multiple functions on the page.
+
+More on this later in the semester.
+
 ### Declaring a Variable
 
 -   For a number, you simply type `var someNumberDog = 123;`
 
 -   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
 
--   Declaring all variables at the start is good practice. For example:
+-   Declaring all variables at the start is good practice. In the following example, we create global variables:
 
 ![](/img/declarevar.png)
 
@@ -134,10 +142,6 @@ You get the same results but you won't be confused by these variables later as y
 ### Exercise Two (10 minutes)
 
 Create three variables that hold _real world_ numbers (cost of groceries, transportation tickets, etc) and do a _real world_ mathematical operation on them in the console.
-
-### Global v. Local
-
-More on this later.
 
 ### Escaping Special Characters
 
