@@ -18,6 +18,8 @@ You can also group:
 
 ![](/img/grouping.png)
 
+Remember [PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
+
 But using JavaScript as a calculator is not the goal. Instead we want a way to hold numbers and other information that we can manipulate on the fly.
 
 ## Variables
@@ -28,18 +30,18 @@ Variables are placeholders for values. They can be any of the following:
 -   **Strings**, that are made up of letter, words, sentences, etc.
 -   **Placeholders**, that receive their value from inputs, computations or concatenation of other variables.
 -   **Arrays**, that holds a multiple values in one variable.
--   **Objects**, variables that hold interrelated data or info. (more on this at some point this semester!).
+-   **Objects**, variables that hold interrelated data or info. (more on this in the advanced course!).
 -   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
 
 ## Variables at Work
 
-Back in the console, type `var x = 1000;` and hit enter.
+Back in the console, type `let x = 1000;` and hit enter.
 
 In the next line, type x
 
 You should see "1000".
 
-Now type, `var y = 1100;` and hit enter.
+Now type, `let y = 1100;` and hit enter.
 
 Now type y
 
