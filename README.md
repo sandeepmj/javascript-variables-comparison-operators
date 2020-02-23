@@ -53,7 +53,7 @@ Type `x - y` into the console.
 
 You should get -100.
 
-![](/img/variables.png)
+![](/img/let-variables.png)
 
 ## How Might We Use Variables in Journalistic Interactives?
 
