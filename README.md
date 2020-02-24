@@ -106,7 +106,7 @@ More on this later in the semester.
 
 -   Declaring all variables at the start is good practice. In the following example, we create global variables:
 
-![](/img/declarevar.png)
+![](/img/declarations.png)
 
 ### Exercise One (a few minutes)
 
