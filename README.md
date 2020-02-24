@@ -22,17 +22,6 @@ Remember [PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
 
 But using JavaScript as a calculator is not the goal. Instead we want a way to hold numbers and other information that we can manipulate on the fly.
 
-## Variables
-
-Variables are placeholders for values. They can be any of the following:
-
--   **Numbers**
--   **Strings**, that are made up of letter, words, sentences, etc.
--   **Placeholders**, that receive their value from inputs, computations or concatenation of other variables.
--   **Arrays**, that holds a multiple values in one variable.
--   **Objects**, variables that hold interrelated data or info. (more on this in the advanced course!).
--   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
-
 ## Variables at Work
 
 Back in the console, type `let x = 1000;` and hit enter.
@@ -55,12 +44,21 @@ You should get -100.
 
 ![](/img/let-variables.png)
 
+## More on Variables
+
+Variables are placeholders for values. They can be any of the following:
+
+-   **Numbers**
+-   **Strings**, that are made up of letter, words, sentences, etc.
+-   **Placeholders**, that receive their value from inputs, computations or concatenation of other variables.
+-   **Arrays**, that holds a multiple values in one variable.
+-   **Objects**, variables that hold interrelated data or info. (more on this in the advanced course!).
+-   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
+
 ## How Might We Use Variables in Journalistic Interactives?
 
--   Compare user input/selection against existing data. (<http://nicolelewis.co/news_app/>)
--   Store large amounts of organized information and pull out key info based on user interaction. (<http://hateindex.com> \| <http://graphics.wsj.com/childcost/>)
--   Take user input, run it through a formula and store the result to be used later. (<https://sandeepmj.github.io/syria/>)
--   Compare the information stored in variables. (<https://www.theguardian.com/us-news/ng-interactive/2014/nov/06/-sp-congress-diversity-women-race-lgbt-are-you-represented>)
+-   Store large amounts of organized information and pull out key info based on user interaction. (<http://nynumbers.nycitynewsservice.com/gun-violence/> \| <http://graphics.wsj.com/childcost/>)
+-   Take user input, run it through a formula and store the result to be used later. (<https://sandeepmj.github.io/syria/> \| <https://www.nytimes.com/interactive/2019/02/21/upshot/up-medicareforall.html>)
 
 ### Why use Variables?
 
@@ -86,7 +84,7 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 -   Keep the variables short but make sure they make sense.
 -   Don't integrate values into the name of a variable. For example, for drinking age, `let legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `let legalDrinkingAge` is more adaptable.
 
-### Global v. Local
+### Global v. Local Scope
 
 -   Local variables only work within the function they are in.
 
