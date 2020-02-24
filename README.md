@@ -18,6 +18,8 @@ You can also group:
 
 ![](/img/grouping.png)
 
+Remember [PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
+
 But using JavaScript as a calculator is not the goal. Instead we want a way to hold numbers and other information that we can manipulate on the fly.
 
 ## Variables
@@ -28,18 +30,18 @@ Variables are placeholders for values. They can be any of the following:
 -   **Strings**, that are made up of letter, words, sentences, etc.
 -   **Placeholders**, that receive their value from inputs, computations or concatenation of other variables.
 -   **Arrays**, that holds a multiple values in one variable.
--   **Objects**, variables that hold interrelated data or info. (more on this at some point this semester!).
+-   **Objects**, variables that hold interrelated data or info. (more on this in the advanced course!).
 -   **Functions**, that you can call in one or more places in your code (more on this at some point this semester!).
 
 ## Variables at Work
 
-Back in the console, type `var x = 1000;` and hit enter.
+Back in the console, type `let x = 1000;` and hit enter.
 
 In the next line, type x
 
 You should see "1000".
 
-Now type, `var y = 1100;` and hit enter.
+Now type, `let y = 1100;` and hit enter.
 
 Now type y
 
@@ -47,11 +49,11 @@ You should see "1100".
 
 Now for something that neither HTML or CSS can do: Math.
 
-Type `x - y` into the console.
+Type `x — y` into the console.
 
 You should get -100.
 
-![](/img/variables.png)
+![](/img/let-variables.png)
 
 ## How Might We Use Variables in Journalistic Interactives?
 
@@ -62,23 +64,27 @@ You should get -100.
 
 ### Why use Variables?
 
--   **Clarity** - you can assign meaningful names to variables.
--   **Reusability** - you can use the same variable in different places in your code.
--   **Time saver** - you can change its value in one place and the new value is called on throughout your code
--   **Placeholder** - a variable can be empty until some event or user action or input gives it a value.
+-   **Clarity** — you can assign meaningful names to variables.
+-   **Reusability** — you can use the same variable in different places in your code.
+-   **Time saver** — you can change its value in one place and the new value is called on throughout your code
+-   **Placeholder** — a variable can be empty until some event or user action or input gives it a value.
 
 ### Naming Variables
+
+This semester we will mostly work with two types of variables:
+**let** — is a type of variable that can change values.
+**const** — is the type of variable where the value is constant.
 
 The idea is to give meaningful names so you aren't confused by what they stand for. Apart from that, here are some basic rules:
 
 -   They ARE case sensitive.
 -   Cannot begin with numbers.
 -   Make them unique (just like IDs, you should only have ONE variable with a particular name).
--   No spaces between words, instead use underscores, hyphens or camelCase (`var myCamelCaseExample`).
+-   No spaces between words, instead use underscores, hyphens or camelCase (`let myCamelCaseExample`).
 -   Don't use any JavaScript [reserved words](http://www.w3schools.com/js/js_reserved.asp).
 -   Think of code as story. Each variable is like a character/actor. Naming each in a relevant way such makes the narrative (the code) easier to follow.
 -   Keep the variables short but make sure they make sense.
--   Don't integrate values into the name of a variable. For example, for drinking age, `var legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `var legalDrinkingAge` is more adaptable.
+-   Don't integrate values into the name of a variable. For example, for drinking age, `let legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `let legalDrinkingAge` is more adaptable.
 
 ### Global v. Local
 
@@ -90,17 +96,17 @@ More on this later in the semester.
 
 ### Declaring a Variable
 
--   For a number, you simply type `var someNumberDog = 123;`
+-   For a number, you simply type `let someNumberDog = 123;`
 
--   For a string, you type `var someStringCat = "Some string of letters, words, etc.";`
+-   For a string, you type `let someStringCat = "Some string of letters, words, etc.";`
 
 -   Strings must be contained within either `'Single Quotes'` or `"Double Quotes"`. You can't mix and match.
 
--   You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `var somePlaceholderDogName;` to declare a variable with no value.
+-   You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `let somePlaceholderDogName;` to declare a variable with no value.
 
 -   Declaring all variables at the start is good practice. In the following example, we create global variables:
 
-![](/img/declarevar.png)
+![](/img/declarations.png)
 
 ### Exercise One (a few minutes)
 
@@ -127,11 +133,11 @@ You might not remember what x and y variables stand for once you deep into your 
 
 Type:
 
-`var monthlyPaycheck = 1000;` and hit enter.
+`let monthlyPaycheck = 1000;` and hit enter.
 
-`var monthlyExpenses = 1100;` and hit enter.
+`let monthlyExpenses = 1100;` and hit enter.
 
-`monthlyPaycheck - monthlyExpenses` and hit enter.
+`monthlyPaycheck — monthlyExpenses` and hit enter.
 
 You get the same results but you won't be confused by these variables later as you would be by x and y.
 
@@ -145,9 +151,9 @@ Create three variables that hold _real world_ numbers (cost of groceries, transp
 
 Type the following into your console:
 
-`var testString = ""He could not find his keys," the inspector said.";`
+`let testString = ""He could not find his keys," the inspector said.";`
 
-`var testString = 'It's time to sleep.';`
+`let testString = 'It's time to sleep.';`
 
 ![](/img/string-quotes-error.png)
 
@@ -159,9 +165,9 @@ We get around this situation by using the `\ escape character.`
 
 Try it. Type the following into your console:
 
-`var testString = "\"He could not find his keys,\" the inspector said."`
+`let testString = "\"He could not find his keys,\" the inspector said."`
 
-`var testString = 'It\'s time to sleep.';`
+`let testString = 'It\'s time to sleep.';`
 
 Now the strings work and you see either the quotation or the apostrophe.
 
@@ -203,9 +209,11 @@ Why would you need an array?
 
 For example, let's say you are building an interactive that explores the impact of massive budget cuts on a number of U.S. government agencies. Instead of creating a variable for each agency, we can place them all in an `Array`.
 
-You declare arrays the same way using `var =` but then use place values in quotes within square brackets.
+You declare arrays the same way using `let =` or `const =` but then use place values in quotes within square brackets.
 
-`var agenciesCuts = ['EPA', "NEA", 'State Dept.', 'DOJ - Civil Rights Division', " Consumer Protection Agency"];`
+For those of you who know some Python, an `array` is similar to a `list`.
+
+`let agenciesCuts = ['EPA', "NEA", 'State Dept.', 'DOJ — Civil Rights Division', " Consumer Protection Agency"];`
 
 You retrieve values by typing `agenciesCuts[indexNumber]`
 
