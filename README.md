@@ -84,9 +84,9 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 -   Keep the variables short but make sure they make sense.
 -   Don't integrate values into the name of a variable. For example, for drinking age, `let legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `let legalDrinkingAge` is more adaptable.
 
-Our example where we had `let x = 1000` and `let y = 1100`. What if those values stand for someone's paycheck and expenses. As our code gets longer, we'd forget what `x` and `y` stand for. Instead, we have meaningful variables:
+Our example where we had `let x = 1000` and `let y = 1100`. What if those values stand for someone's paycheck and expenses. As our code gets longer, we'd forget what `x` and `y` stand for. Instead, we provide meaningful variables:
 
- ![](/img/monthyexpenses.jpg)
+ ![](/img/monthyexpenses.png)
 
 <!-- ### Global v. Local Scope
 
