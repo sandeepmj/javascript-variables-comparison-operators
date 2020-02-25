@@ -84,13 +84,17 @@ The idea is to give meaningful names so you aren't confused by what they stand f
 -   Keep the variables short but make sure they make sense.
 -   Don't integrate values into the name of a variable. For example, for drinking age, `let legal21` might work. But what if you expand your piece internationally? Or what if the legal age changes? Making it `let legalDrinkingAge` is more adaptable.
 
-### Global v. Local Scope
+Our example where we had `let x = 1000` and `let y = 1100`. What if those values stand for someone's paycheck and expenses. As our code gets longer, we'd forget what `x` and `y` stand for. Instead, we have meaningful variables:
+
+ ![](/img/monthyexpenses.jpg)
+
+<!-- ### Global v. Local Scope
 
 -   Local variables only work within the function they are in.
 
 -   Global variables can be used by multiple functions on the page.
 
-More on this later in the semester.
+More on this later in the semester. -->
 
 ### Declaring a Variable
 
@@ -102,9 +106,9 @@ More on this later in the semester.
 
 -   You can also declare a variable but assign it a value later based on a computation or some input (age, name, etc.). You simply type `let somePlaceholderDogName;` to declare a variable with no value.
 
--   Declaring all variables at the start is good practice. In the following example, we create global variables:
+<!-- -   Declaring all variables at the start is good practice. In the following example, we create global variables:
 
-![](/img/declarations.png)
+![](/img/declarations.png) -->
 
 ### Exercise One (a few minutes)
 
