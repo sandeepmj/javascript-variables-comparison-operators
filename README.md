@@ -58,7 +58,8 @@ Variables are placeholders for values. They can be any of the following:
 ## How Might We Use Variables in Journalistic Interactives?
 
 -   Store large amounts of organized information and pull out key info based on user interaction. (<http://nynumbers.nycitynewsservice.com/gun-violence/> \| <http://graphics.wsj.com/childcost/>)
--   Take user input, run it through a formula and store the result to be used later. (<https://sandeepmj.github.io/syria/> \| <https://www.nytimes.com/interactive/2019/02/21/upshot/up-medicareforall.html>)
+-   Take user input, run it through a formula and store the result to be used later. (<https://sandeepmj.github.io/syria/>
+-   Taking in user inputs and return some information (<https://www.nytimes.com/interactive/2014/05/20/dining/what-are-you-drinking.html>)
 
 ### Why use Variables?
 
